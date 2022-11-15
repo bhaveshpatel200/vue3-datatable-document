@@ -351,10 +351,6 @@
               <td class="font-semibold">pageSizeChange</td>
               <td>will trigger when pagesize changed</td>
             </tr>
-            <tr>
-              <td class="font-semibold">filterChange</td>
-              <td>will trigger when column filter changed</td>
-            </tr>
           </tbody>
         </table>
       </div>
