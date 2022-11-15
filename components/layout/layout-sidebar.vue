@@ -70,6 +70,7 @@
         <li class="menu nav-item">
           <NuxtLink to="/slot" class="nav-link">Slot</NuxtLink>
         </li>
+        <li class="menu nav-item">Coming Soon (More Samples)</li>
       </ul>
     </div>
   </div>
