@@ -85,7 +85,7 @@ const rows = ref([
 
   const cols =
     ref([
-      { field: 'id', title: 'ID' },
+      { field: 'id', title: 'ID', isUnique: true },
       { field: 'firstName', title: 'First Name' },
       { field: 'lastName', title: 'Last Name' },
       { field: 'email', title: 'Email' },

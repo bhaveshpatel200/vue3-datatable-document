@@ -96,7 +96,7 @@
   const search = ref('');
   const cols =
     ref([
-      { field: 'id', title: 'ID', search: false },
+      { field: 'id', title: 'ID', isUnique: true, search: false },
       { field: 'firstName', title: 'First Name' },
       { field: 'lastName', title: 'Last Name' },
       { field: 'email', title: 'Email', search: false },

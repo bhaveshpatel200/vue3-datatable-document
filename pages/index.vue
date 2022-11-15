@@ -229,6 +229,12 @@
             </thead>
             <tbody>
               <tr>
+                <td class="font-semibold">isUnique</td>
+                <td align="left">boolean</td>
+                <td>false</td>
+                <td>db column is primary key or not</td>
+              </tr>
+              <tr>
                 <td class="font-semibold">field</td>
                 <td align="left">string</td>
                 <td>""</td>
