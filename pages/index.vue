@@ -351,6 +351,54 @@
               <td class="font-semibold">pageSizeChange</td>
               <td>will trigger when pagesize changed</td>
             </tr>
+            <tr>
+              <td class="font-semibold">rowSelect</td>
+              <td>will trigger when row selected using checkbox</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">filterChange</td>
+              <td>will trigger when column filter changed</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="methods">
+      <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Methods</h2>
+      <div class="table-responsive">
+        <table class="table-striped">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-semibold">getSelectedRows</td>
+              <td>will returns all selected rows</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">getColumnFilters</td>
+              <td>will return all column filters</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">clearSelectedRows</td>
+              <td>will unselect all selected rows</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">selectRow(index)</td>
+              <td>will select row with the given index (non-existent row will be ignored)</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">unselectRow(index)</td>
+              <td>will unselect row with the given index (non-existent row will be ignored)</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">isRowSelected(index)</td>
+              <td>will return true if the row with given index is selected</td>
+            </tr>
           </tbody>
         </table>
       </div>

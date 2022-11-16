@@ -37,6 +37,9 @@
             <NuxtLink to="/#events"><span class="mr-2 text-2xl leading-5">•</span> Events </NuxtLink>
           </li>
           <li class="sub-item">
+            <NuxtLink to="/#methods"><span class="mr-2 text-2xl leading-5">•</span> Methods </NuxtLink>
+          </li>
+          <li class="sub-item">
             <NuxtLink to="/#slots"><span class="mr-2 text-2xl leading-5">•</span> Slots </NuxtLink>
           </li>
           <li class="sub-item">
