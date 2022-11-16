@@ -135,7 +135,7 @@
               <tr>
                 <td class="font-semibold">sortDirection</td>
                 <td align="left">string</td>
-                <td>"desc"</td>
+                <td>"asc"</td>
                 <td>sort direction (asc or desc)</td>
               </tr>
               <tr>
