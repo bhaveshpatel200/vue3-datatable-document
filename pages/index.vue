@@ -91,6 +91,12 @@
                 <td>enable global search</td>
               </tr>
               <tr>
+                <td class="font-semibold">page</td>
+                <td align="left">number</td>
+                <td>1</td>
+                <td>current page</td>
+              </tr>
+              <tr>
                 <td class="font-semibold">pageSize</td>
                 <td align="left">number</td>
                 <td>10</td>
@@ -375,6 +381,10 @@
             </tr>
           </thead>
           <tbody>
+            <tr>
+              <td class="font-semibold">reset</td>
+              <td>will reset all options like selected rows, filter, search, currennt page etc</td>
+            </tr>
             <tr>
               <td class="font-semibold">getSelectedRows</td>
               <td>will returns all selected rows</td>
