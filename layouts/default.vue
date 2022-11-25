@@ -1,8 +1,6 @@
 <template>
   <div class="relative">
-    <div
-      class="antialiased font-poppins font-normal text-sm text-black bg-gray-50 min-h-screen"
-    >
+    <div class="antialiased font-poppins font-normal text-sm text-black bg-gray-50 min-h-screen">
       <!--  BEGIN SIDEBAR  -->
       <layout-sidebar />
       <!--  END SIDEBAR  -->
@@ -25,5 +23,9 @@
   </div>
 </template>
 <script setup>
-const appConfig = useAppConfig();
+  const appConfig = useAppConfig();
+  const nuxtApp = useNuxtApp();
+  nuxtApp.hook('page:finish', () => {
+    window.scrollTo(0, 0);
+  });
 </script>

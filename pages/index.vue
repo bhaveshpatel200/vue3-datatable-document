@@ -70,7 +70,13 @@
                 <td class="font-semibold">skin</td>
                 <td align="left">string</td>
                 <td>"table-striped table-hover"</td>
-                <td>custom class for skin</td>
+                <td>
+                  custom class for skin <br />
+                  <strong>table-striped</strong> - for stripe row <br />
+                  <strong>table-hover</strong> - for hover row <br />
+                  <strong>table-bordered</strong> - for bordered row <br />
+                  <strong>table-compact</strong> - for compact table
+                </td>
               </tr>
               <tr>
                 <td class="font-semibold">loading</td>
@@ -184,25 +190,25 @@
                 <td class="font-semibold">firstArrow</td>
                 <td align="left">string</td>
                 <td>default arrow</td>
-                <td>custom arrow</td>
+                <td>custom first page arrow</td>
               </tr>
               <tr>
                 <td class="font-semibold">lastArrow</td>
                 <td align="left">string</td>
                 <td>default arrow</td>
-                <td>custom arrow</td>
+                <td>custom last page arrow</td>
               </tr>
               <tr>
                 <td class="font-semibold">previousArrow</td>
                 <td align="left">string</td>
                 <td>default arrow</td>
-                <td>custom arrow</td>
+                <td>custom previous page arrow</td>
               </tr>
               <tr>
                 <td class="font-semibold">nextArrow</td>
                 <td align="left">string</td>
                 <td>default arrow</td>
-                <td>custom arrow</td>
+                <td>custom next page arrow</td>
               </tr>
               <tr>
                 <td class="font-semibold">paginationInfo</td>
@@ -214,6 +220,31 @@
                 <td class="font-semibold">noDataContent</td>
                 <td align="left">string</td>
                 <td>No data available</td>
+                <td>custom no data message</td>
+              </tr>
+
+              <tr>
+                <td class="font-semibold">stickyHeader</td>
+                <td align="left">boolean</td>
+                <td>false</td>
+                <td>enable fixed header</td>
+              </tr>
+              <tr>
+                <td class="font-semibold">height</td>
+                <td align="left">string</td>
+                <td>450px</td>
+                <td>only will be used when stickyHeader enabled</td>
+              </tr>
+              <tr>
+                <td class="font-semibold">cloneHeaderInFooter</td>
+                <td align="left">boolean</td>
+                <td>false</td>
+                <td>enable clone header in footer</td>
+              </tr>
+              <tr>
+                <td class="font-semibold">selectRowOnClick</td>
+                <td align="left">boolean</td>
+                <td>false</td>
                 <td>custom no data message</td>
               </tr>
             </tbody>
@@ -364,6 +395,15 @@
             <tr>
               <td class="font-semibold">filterChange</td>
               <td>will trigger when column filter changed</td>
+            </tr>
+
+            <tr>
+              <td class="font-semibold">rowClick</td>
+              <td>will trigger when row clicked</td>
+            </tr>
+            <tr>
+              <td class="font-semibold">rowDBClick</td>
+              <td>will trigger when row double clicked</td>
             </tr>
           </tbody>
         </table>
@@ -524,6 +564,18 @@
       <div class="text-lg">
         @bhplugin/vue3-datatable is open-sourced software licensed under the
         <a target="_blank" href="http://opensource.org/licenses/MIT" class="text-primary hover:underline"> [MIT license] </a>
+      </div>
+    </div>
+    <div id="support" class="pb-28">
+      <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Support</h2>
+      <div>
+        <a href="https://www.buymeacoffee.com/bhplugin" target="_blank">
+          <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+            alt="Buy Me A Coffee"
+            style="height: 60px !important; width: 217px !important"
+          />
+        </a>
       </div>
     </div>
   </div>

@@ -48,6 +48,9 @@
           <li class="sub-item">
             <NuxtLink to="/#license"><span class="mr-2 text-2xl leading-5">•</span> License </NuxtLink>
           </li>
+          <li class="sub-item">
+            <NuxtLink to="/#support"><span class="mr-2 text-2xl leading-5">•</span> Support </NuxtLink>
+          </li>
         </ul>
 
         <li class="px-3 pt-5 pb-3 text-sm font-semibold leading-none uppercase text-black">Examples</li>
