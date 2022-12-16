@@ -1,103 +1,132 @@
 <template>
-  <div class="alt-pagination">
-    <div class="flex items-center justify-between mb-5">
-      <h2 class="text-3xl">Basic</h2>
-      <a
-        href="#code-preview"
-        class="flex items-center border border-primary rounded px-4 py-2 text-primary hover:bg-primary hover:text-white transition duration-300"
-        >Code
-        <icon-code class="ml-2" />
-      </a>
-    </div>
+    <div>
+        <div class="flex items-center justify-between mb-5">
+            <h2 class="text-3xl">Alt Pagination</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/alt-pagination.vue" class="btn">
+                <icon-github class="w-5 h-5 mr-2" />
+                View Source
+            </a>
+        </div>
 
-    <vue3-datatable
-      :rows="rows"
-      :columns="cols"
-      :totalRows="rows?.length"
-      firstArrow="First"
-      lastArrow="Last"
-      previousArrow="Prev"
-      nextArrow="Next"
-    >
-    </vue3-datatable>
+        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" firstArrow="First" lastArrow="Last" previousArrow="Prev" nextArrow="Next" :showNumbersCount="3" class="alt-pagination">
+        </vue3-datatable>
 
-    <div id="code-preview" class="space-y-5">
-      <h3 class="text-lg mt-20">Code Preview</h3>
-      <Highlight>
-        <pre>
-&lt;!-- html --&gt;
-&lt;template&gt;
-  &lt;vue3-datatable :rows=&quot;rows&quot; :columns=&quot;cols&quot; :totalRows=&quot;rows?.length&quot;&gt;
-  &lt;/vue3-datatable&gt;
-&lt;/template&gt;
-</pre
+        <!-- disable first last pagination -->
+        <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
+            <h2 class="text-3xl">Disable First Last Pagination</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/alt-pagination.vue" class="btn">
+                <icon-github class="w-5 h-5 mr-2" />
+                View Source
+            </a>
+        </div>
+
+        <vue3-datatable :rows="rows1" :columns="cols1" :totalRows="rows1?.length" :showFirstPage="false" :showLastPage="false"> </vue3-datatable>
+
+        <!-- pagination without number -->
+        <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
+            <h2 class="text-3xl">Pagination Without number</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/alt-pagination.vue" class="btn">
+                <icon-github class="w-5 h-5 mr-2" />
+                View Source
+            </a>
+        </div>
+
+        <vue3-datatable :rows="rows2" :columns="cols2" :totalRows="rows2?.length" :showNumbers="false"> </vue3-datatable>
+
+        <!-- next previous -->
+        <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
+            <h2 class="text-3xl">Next Previous</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/alt-pagination.vue" class="btn">
+                <icon-github class="w-5 h-5 mr-2" />
+                View Source
+            </a>
+        </div>
+
+        <vue3-datatable
+            :rows="rows2"
+            :columns="cols2"
+            :totalRows="rows2?.length"
+            :showNumbers="false"
+            :showFirstPage="false"
+            :showLastPage="false"
+            previousArrow="Previous"
+            nextArrow="Next"
+            class="next-prev-pagination"
+            paginationInfo="{0} to {1} of {2}"
+            :showPageSize="false"
         >
-      </Highlight>
-      <Highlight>
-        <pre>
-&lt;!-- script --&gt;
-&lt;script setup lang=&quot;ts&quot;&gt;
-  import { ref } from &quot;vue&quot;;
-  import Vue3Datatable from &quot;@bhplugin/vue3-datatable&quot;;
-  import &quot;@bhplugin/vue3-datatable/dist/style.css&quot;;
-
-  const cols =
-    ref([
-      { field: &quot;id&quot;, title: &quot;ID&quot; },
-      { field: &quot;firstName&quot;, title: &quot;First Name&quot; },
-      { field: &quot;lastName&quot;, title: &quot;Last Name&quot; },
-      { field: &quot;email&quot;, title: &quot;Email&quot; },
-      { field: &quot;phone&quot;, title: &quot;Phone&quot; },
-    ]) || [];
-  const rows = ref([
-      {
-        &quot;id&quot;: 1,
-        &quot;firstName&quot;: &quot;Caroline&quot;,
-        &quot;lastName&quot;: &quot;Jensen&quot;,
-        &quot;email&quot;: &quot;carolinejensen@zidant.com&quot;,
-        &quot;dob&quot;: &quot;2004-05-28&quot;,
-        &quot;address&quot;: {
-          &quot;street&quot;: &quot;529 Scholes Street&quot;,
-          &quot;city&quot;: &quot;Temperanceville&quot;,
-          &quot;zipcode&quot;: 5235,
-          &quot;geo&quot;: {
-            &quot;lat&quot;: 23.806115,
-            &quot;lng&quot;: 164.677197
-          }
-        },
-        &quot;phone&quot;: &quot;+1 (821) 447-3782&quot;,
-        &quot;isActive&quot;: true,
-        &quot;age&quot;: 39,
-        &quot;company&quot;: &quot;POLARAX&quot;
-      }, 
-      ...
-    ]);
-&lt;/script&gt;
-</pre
-        >
-      </Highlight>
+        </vue3-datatable>
     </div>
-  </div>
 </template>
 <script setup lang="ts">
-import { ref } from "vue";
-import Vue3Datatable from "@bhplugin/vue3-datatable";
-import "@bhplugin/vue3-datatable/dist/style.css";
-const config = useRuntimeConfig();
-const cols =
-  ref([
-    { field: "id", title: "ID" },
-    { field: "firstName", title: "First Name" },
-    { field: "lastName", title: "Last Name" },
-    { field: "email", title: "Email" },
-    { field: "phone", title: "Phone" },
-  ]) || [];
+    import { ref } from 'vue';
+    import Vue3Datatable from '@bhplugin/vue3-datatable';
+    import '@bhplugin/vue3-datatable/dist/style.css';
+    const config = useRuntimeConfig();
+    const cols =
+        ref([
+            { field: 'id', title: 'ID' },
+            { field: 'firstName', title: 'First Name' },
+            { field: 'lastName', title: 'Last Name' },
+            { field: 'email', title: 'Email' },
+            { field: 'phone', title: 'Phone' },
+        ]) || [];
 
-const { data } = await useFetch(config.SITE_URL + "/data.json");
-const rows = data.value || [];
+    const { data } = await useFetch(config.SITE_URL + '/data.json');
+    const rows = data.value || [];
+
+    // disable first last pagination
+    const cols1 =
+        ref([
+            { field: 'id', title: 'ID' },
+            { field: 'firstName', title: 'First Name' },
+            { field: 'lastName', title: 'Last Name' },
+            { field: 'email', title: 'Email' },
+            { field: 'phone', title: 'Phone' },
+        ]) || [];
+    const { data: data1 } = await useFetch(config.SITE_URL + '/data.json');
+    const rows1 = data1.value || [];
+
+    // pagination without number
+    const cols2 =
+        ref([
+            { field: 'id', title: 'ID' },
+            { field: 'firstName', title: 'First Name' },
+            { field: 'lastName', title: 'Last Name' },
+            { field: 'email', title: 'Email' },
+            { field: 'phone', title: 'Phone' },
+        ]) || [];
+
+    const { data: data2 } = await useFetch(config.SITE_URL + '/data.json');
+    const rows2 = data2.value || [];
+
+    // next previous
+    const cols3 =
+        ref([
+            { field: 'id', title: 'ID' },
+            { field: 'firstName', title: 'First Name' },
+            { field: 'lastName', title: 'Last Name' },
+            { field: 'email', title: 'Email' },
+            { field: 'phone', title: 'Phone' },
+        ]) || [];
+
+    const { data: data3 } = await useFetch(config.SITE_URL + '/data.json');
+    const rows3 = data3.value || [];
 </script>
 <style>
-.alt-pagination .bh-pagination .bh-page-item {
-  @apply !w-max !rounded;
-}
+    /* alt-pagination */
+    .alt-pagination .bh-pagination .bh-page-item {
+        @apply !w-max min-w-[32px] !rounded;
+    }
+
+    /* next-prev-pagination */
+    .next-prev-pagination .bh-pagination .bh-page-item {
+        @apply !w-max min-w-[100px] !rounded;
+    }
+    .next-prev-pagination .bh-pagination > div:first-child {
+        @apply flex-col font-semibold;
+    }
+    .next-prev-pagination .bh-pagination .bh-pagination-number {
+        @apply mx-auto gap-3;
+    }
 </style>

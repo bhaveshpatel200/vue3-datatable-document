@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div class="antialiased font-poppins font-normal text-sm text-black bg-gray-50 min-h-screen">
+    <div class="antialiased font-poppins font-normal text-sm text-black bg-white min-h-screen">
       <!--  BEGIN SIDEBAR  -->
       <layout-sidebar />
       <!--  END SIDEBAR  -->
@@ -12,7 +12,7 @@
         <!--  END TOP NAVBAR  -->
 
         <div class="p-8">
-          <slot />
+          <NuxtPage />
           <!-- BEGIN FOOTER -->
           <layout-footer />
           <!-- END FOOTER -->

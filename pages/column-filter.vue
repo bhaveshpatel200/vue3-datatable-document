@@ -1,14 +1,14 @@
 <template>
     <div>
         <div class="flex items-center justify-between mb-5">
-            <h2 class="text-3xl">Custom Pagesize & Info</h2>
-            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/custom-page-size.vue" class="btn">
+            <h2 class="text-3xl">Column Filter</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/column-filter.vue" class="btn">
                 <icon-github class="w-5 h-5 mr-2" />
                 View Source
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" :pageSize="15" :pageSizeOptions="[10, 15, 30, 50]" paginationInfo="{0} to {1} of {2}"> </vue3-datatable>
+        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" :columnFilter="true" class="column-filter"></vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
@@ -16,16 +16,22 @@
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const config = useRuntimeConfig();
-
     const cols =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, filter: false },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },
-            { field: 'phone', title: 'Phone' },
+            { field: 'age', title: 'Age', type: 'number' },
+            { field: 'dob', title: 'Birthdate', type: 'date' },
+            { field: 'isActive', title: 'Active', type: 'bool' },
         ]) || [];
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
     const rows = data.value || [];
 </script>
+<style>
+    .column-filter table {
+        @apply min-h-[380px];
+    }
+</style>

@@ -3,34 +3,48 @@
 @tailwind utilities;
 
 @layer components {
-  html {
-    @apply scroll-smooth;
-  }
+    html {
+        @apply scroll-smooth;
+    }
 
-  /* sidebar */
-  .sidebar .nav-link {
-    @apply w-full mb-1 flex items-center whitespace-nowrap rounded-md px-2.5 py-2 hover:bg-black/[0.08] hover:text-gray-800 transition duration-300;
-  }
+    /* sidebar */
+    .sidebar .nav-link {
+        @apply w-full mb-1 flex items-center whitespace-nowrap rounded-md px-2.5 py-2 hover:bg-black/[0.08] hover:text-gray-800 transition duration-300;
+    }
 
-  .sidebar .nav-link.router-link-exact-active {
-    @apply bg-black/[0.08] text-gray-800;
-  }
+    .sidebar .nav-link.router-link-exact-active {
+        @apply bg-black/[0.08] text-gray-800;
+    }
 
-  .sidebar .sub-item > a {
-    @apply w-full mb-1 flex items-center whitespace-nowrap rounded-md px-2.5 py-2 hover:bg-black/[0.08] hover:text-gray-800 transition duration-300;
-  }
+    .sidebar .sub-item > a {
+        @apply w-full mb-1 flex items-center whitespace-nowrap rounded-md px-2.5 py-2 hover:bg-black/[0.08] hover:text-gray-800 transition duration-300;
+    }
 
-  /* Form */
-  .form-input,
-  .form-textarea,
-  .form-select,
-  .form-multiselect {
-    @apply w-full rounded-md border border-[#e0e6ed] bg-white px-4 py-2 text-sm text-black !outline-none focus:border-primary focus:ring-transparent;
-  }
+    /* Form */
+    .form-input,
+    .form-textarea,
+    .form-select,
+    .form-multiselect {
+        @apply w-full rounded-md border border-[#e0e6ed] bg-white px-4 py-2 text-sm text-black !outline-none focus:border-primary focus:ring-transparent;
+    }
 
-  /* checkbox & radio */
-  .form-radio,
-  .form-checkbox {
-    @apply h-5 w-5 cursor-pointer rounded border-2 border-[#e0e6ed] bg-transparent text-primary !shadow-none !outline-none !ring-0 !ring-offset-0 checked:bg-[length:90%_90%] disabled:cursor-not-allowed disabled:bg-[#eee];
-  }
+    /* checkbox & radio */
+    .form-radio,
+    .form-checkbox {
+        @apply h-5 w-5 cursor-pointer rounded border-2 border-[#e0e6ed] bg-transparent text-primary !shadow-none !outline-none !ring-0 !ring-offset-0 checked:bg-[length:90%_90%] disabled:cursor-not-allowed disabled:bg-[#eee];
+    }
+
+    /* buttons */
+    .btn {
+        @apply inline-flex items-center border !bg-primary border-primary rounded px-4 py-2 text-white hover:!bg-white hover:text-primary transition duration-300;
+    }
+    .btn-outline {
+        @apply text-primary hover:text-white !bg-white hover:!bg-primary;
+    }
+    .btn-success {
+        @apply !bg-green-500 border-green-500 hover:!bg-white hover:text-green-500;
+    }
+    .btn-danger {
+        @apply !bg-red-500 border-red-500 hover:!bg-white hover:text-red-500;
+    }
 }
