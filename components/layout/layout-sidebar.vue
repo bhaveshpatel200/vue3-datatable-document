@@ -94,6 +94,12 @@
                 <li class="menu nav-item">
                     <NuxtLink to="/sticky-header" class="nav-link">Sticky Header</NuxtLink>
                 </li>
+                <li class="menu nav-item">
+                    <NuxtLink to="/header-clone" class="nav-link">Clone Header</NuxtLink>
+                </li>
+                <li class="menu nav-item">
+                    <NuxtLink to="/columnchooser" class="nav-link">Column Chooser</NuxtLink>
+                </li>
                 <li class="menu nav-item pt-4">Coming Soon (More Samples)</li>
             </ul>
         </div>
