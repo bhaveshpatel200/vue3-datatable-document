@@ -56,6 +56,9 @@
                 <li class="px-3 pt-5 pb-3 text-sm font-semibold leading-none uppercase text-black">Examples</li>
 
                 <li class="menu nav-item">
+                    <NuxtLink to="/advanced" class="nav-link"> Advanced </NuxtLink>
+                </li>
+                <li class="menu nav-item">
                     <NuxtLink to="/basic" class="nav-link"> Basic </NuxtLink>
                 </li>
                 <li class="menu nav-item">

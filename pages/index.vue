@@ -361,6 +361,19 @@
                                 <td>true</td>
                                 <td>custom cell rendering</td>
                             </tr>
+
+                            <tr>
+                                <td class="font-semibold">headerClass</td>
+                                <td align="left">string</td>
+                                <td>""</td>
+                                <td>custom header cell class</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">cellClass</td>
+                                <td align="left">string</td>
+                                <td>""</td>
+                                <td>custom cell class</td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -606,6 +619,6 @@
         @apply divide-y divide-gray-200;
     }
     table.table-striped tr {
-        @apply even:bg-defaultgray;
+        @apply even:bg-gray;
     }
 </style>

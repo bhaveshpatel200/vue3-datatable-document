@@ -47,4 +47,27 @@
     .btn-danger {
         @apply !bg-red-500 border-red-500 hover:!bg-white hover:text-red-500;
     }
+
+    /* badeg */
+    .badge {
+        @apply rounded-md px-4 py-1 text-xs;
+    }
+    .badge.primary {
+        @apply bg-primary-light;
+    }
+    .badge.secondary {
+        @apply bg-secondary-light;
+    }
+    .badge.success {
+        @apply bg-success-light;
+    }
+    .badge.danger {
+        @apply bg-danger-light;
+    }
+    .badge.warning {
+        @apply bg-warning-light;
+    }
+    .badge.info {
+        @apply bg-info-light;
+    }
 }
