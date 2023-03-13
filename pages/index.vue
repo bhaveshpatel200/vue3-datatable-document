@@ -38,7 +38,7 @@
             <div>
                 <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Props</h2>
                 <div class="table-responsive">
-                    <table class="table-striped">
+                    <table class="bh-table-striped">
                         <thead>
                             <tr>
                                 <th>Props</th>
@@ -69,13 +69,13 @@
                             <tr>
                                 <td class="font-semibold">skin</td>
                                 <td align="left">string</td>
-                                <td>"table-striped table-hover"</td>
+                                <td>"bh-table-striped bh-table-hover"</td>
                                 <td>
                                     custom class for skin <br />
-                                    <strong>table-striped</strong> - for stripe row <br />
-                                    <strong>table-hover</strong> - for hover row <br />
-                                    <strong>table-bordered</strong> - for bordered row <br />
-                                    <strong>table-compact</strong> - for compact table
+                                    <strong>bh-table-striped</strong> - for stripe row <br />
+                                    <strong>bh-table-hover</strong> - for hover row <br />
+                                    <strong>bh-table-bordered</strong> - for bordered row <br />
+                                    <strong>bh-table-compact</strong> - for compact table
                                 </td>
                             </tr>
                             <tr>
@@ -261,7 +261,7 @@
             <div id="column-props" class="mt-5">
                 <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Columns options</h2>
                 <div class="table-responsive">
-                    <table class="table-striped">
+                    <table class="bh-table-striped">
                         <thead>
                             <tr>
                                 <th>Props</th>
@@ -383,7 +383,7 @@
         <div id="events">
             <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Events</h2>
             <div class="table-responsive">
-                <table class="table-striped">
+                <table class="bh-table-striped">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -432,7 +432,7 @@
         <div id="methods">
             <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Methods</h2>
             <div class="table-responsive">
-                <table class="table-striped">
+                <table class="bh-table-striped">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -618,7 +618,7 @@
     table tbody {
         @apply divide-y divide-gray-200;
     }
-    table.table-striped tr {
+    table.bh-table-striped tr {
         @apply even:bg-gray;
     }
 </style>

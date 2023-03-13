@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" skin="table-striped"> </vue3-datatable>
+        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" skin="bh-table-striped"> </vue3-datatable>
 
         <!-- hover -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -19,7 +19,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows1" :columns="cols" :totalRows="rows1?.length" skin="table-hover"> </vue3-datatable>
+        <vue3-datatable :rows="rows1" :columns="cols" :totalRows="rows1?.length" skin="bh-table-hover"> </vue3-datatable>
 
         <!-- bordered -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -30,7 +30,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows2" :columns="cols" :totalRows="rows2?.length" skin="table-bordered"> </vue3-datatable>
+        <vue3-datatable :rows="rows2" :columns="cols" :totalRows="rows2?.length" skin="bh-table-bordered"> </vue3-datatable>
 
         <!-- compact -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -41,7 +41,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows3" :columns="cols" :totalRows="rows3?.length" skin="table-compact"> </vue3-datatable>
+        <vue3-datatable :rows="rows3" :columns="cols" :totalRows="rows3?.length" skin="bh-table-compact"> </vue3-datatable>
 
         <!-- all -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -52,7 +52,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows4" :columns="cols" :totalRows="rows4?.length" skin="table-striped table-hover table-bordered table-compact"> </vue3-datatable>
+        <vue3-datatable :rows="rows4" :columns="cols" :totalRows="rows4?.length" skin="bh-table-striped bh-table-hover bh-table-bordered bh-table-compact"> </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
