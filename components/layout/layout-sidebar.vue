@@ -103,6 +103,9 @@
                 <li class="menu nav-item">
                     <NuxtLink to="/columnchooser" class="nav-link">Column Chooser</NuxtLink>
                 </li>
+                <li class="menu nav-item">
+                    <NuxtLink to="/skeleton-loader" class="nav-link">Skeleton Loader</NuxtLink>
+                </li>
                 <li class="menu nav-item pt-4">Coming Soon (More Samples)</li>
             </ul>
         </div>
