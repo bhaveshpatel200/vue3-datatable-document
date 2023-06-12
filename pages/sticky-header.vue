@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" :sortable="true" :pageSize="20" :hasCheckbox="true" :stickyHeader="true">
+        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :sortable="true" :pageSize="20" :hasCheckbox="true" :stickyHeader="true">
             <template #id="data">
                 <strong>#{{ data.value.id }}</strong>
             </template>
@@ -56,6 +56,7 @@
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const config = useRuntimeConfig();
+    const loading: any = ref(true);
     const cols =
         ref([
             { field: 'id', title: 'ID', isUnique: true, filter: false },
@@ -67,6 +68,9 @@
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
     const rows = data.value || [];
+    setTimeout(() => {
+        loading.value = false;
+    }, 1000);
 
     // sticky first column
     const cols1 =

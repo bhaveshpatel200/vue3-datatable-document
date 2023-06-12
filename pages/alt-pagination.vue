@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" firstArrow="First" lastArrow="Last" previousArrow="Prev" nextArrow="Next" :showNumbersCount="3" class="alt-pagination">
+        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" firstArrow="First" lastArrow="Last" previousArrow="Prev" nextArrow="Next" :showNumbersCount="3" class="alt-pagination">
         </vue3-datatable>
 
         <!-- disable first last pagination -->
@@ -63,6 +63,7 @@
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const config = useRuntimeConfig();
+    const loading: any = ref(true);
     const cols =
         ref([
             { field: 'id', title: 'ID' },
@@ -74,6 +75,9 @@
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
     const rows = data.value || [];
+    setTimeout(() => {
+        loading.value = false;
+    }, 1000);
 
     // disable first last pagination
     const cols1 =

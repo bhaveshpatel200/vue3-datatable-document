@@ -1,14 +1,14 @@
 <template>
     <div>
         <div class="flex items-center justify-between mb-5">
-            <h2 class="text-3xl">Custom Pagesize & Info</h2>
-            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/custom-page-size.vue" class="btn">
+            <h2 class="text-3xl">Skeleton Loader</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/skeleton-loader.vue" class="btn">
                 <icon-github class="w-5 h-5 mr-2" />
                 View Source
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :pageSize="15" :pageSizeOptions="[10, 15, 30, 50]" paginationInfo="{0} to {1} of {2}"> </vue3-datatable>
+        <vue3-datatable :rows="rows" :columns="cols" :loading="loading"> </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
@@ -17,7 +17,6 @@
     import '@bhplugin/vue3-datatable/dist/style.css';
     const config = useRuntimeConfig();
     const loading: any = ref(true);
-
     const cols =
         ref([
             { field: 'id', title: 'ID', isUnique: true },
@@ -31,5 +30,5 @@
     const rows = data.value || [];
     setTimeout(() => {
         loading.value = false;
-    }, 1000);
+    }, 5000);
 </script>

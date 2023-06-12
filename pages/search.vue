@@ -12,7 +12,7 @@
             <input v-model="search" type="text" class="form-input max-w-xs" placeholder="Search..." />
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" :search="search"> </vue3-datatable>
+        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :search="search"> </vue3-datatable>
 
         <!-- specific column search -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -35,6 +35,7 @@
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const config = useRuntimeConfig();
+    const loading: any = ref(true);
 
     const search = ref('');
     const cols =
@@ -48,6 +49,9 @@
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
     const rows = data.value || [];
+    setTimeout(() => {
+        loading.value = false;
+    }, 1000);
 
     // specific column search
     const search1 = ref('');

@@ -60,12 +60,12 @@
                                 <td>[]</td>
                                 <td>table rows</td>
                             </tr>
-                            <tr>
+                            <!-- <tr>
                                 <td class="font-semibold">totalRows (required)</td>
                                 <td align="left">number</td>
                                 <td>0</td>
                                 <td>total number of rows</td>
-                            </tr>
+                            </tr> -->
                             <tr>
                                 <td class="font-semibold">skin</td>
                                 <td align="left">string</td>

@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :totalRows="rows?.length" :sortable="true" :loading="true" class="advanced-table whitespace-nowrap">
+        <vue3-datatable :rows="rows" :columns="cols" :sortable="true" :loading="loading" class="advanced-table whitespace-nowrap">
             <template #id="data">
                 <strong class="text-info">#{{ data.value.id }}</strong>
             </template>
@@ -71,6 +71,8 @@
     import '@bhplugin/vue3-datatable/dist/style.css';
     import ApexChart from 'vue3-apexcharts';
     const config = useRuntimeConfig();
+    const loading: any = ref(true);
+
     const cols =
         ref([
             { field: 'id', title: 'ID', isUnique: true },
@@ -86,6 +88,9 @@
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
     const rows = data.value || [];
+    setTimeout(() => {
+        loading.value = false;
+    }, 1000);
 
     const countryList = [
         { code: 'AE', name: 'United Arab Emirates' },
