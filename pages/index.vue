@@ -499,7 +499,7 @@
             <Highlight>
                 <pre>
 &lt;template&gt;
-  &lt;vue3-datatable :rows=&quot;rows&quot; :columns=&quot;cols&quot; :totalRows=&quot;rows?.length&quot;&gt;
+  &lt;vue3-datatable :rows=&quot;rows&quot; :columns=&quot;cols&quot;&gt;
   &lt;/vue3-datatable&gt;
 &lt;/template&gt;
 

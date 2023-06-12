@@ -27,7 +27,7 @@
             <input v-model="search1" type="text" class="form-input max-w-xs" placeholder="Search Firsname and Lastname..." />
         </div>
 
-        <vue3-datatable :rows="rows1" :columns="cols1" :totalRows="rows1?.length" :search="search1"> </vue3-datatable>
+        <vue3-datatable :rows="rows1" :columns="cols1" :loading="loading1" :search="search1"> </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
@@ -48,8 +48,9 @@
         ]) || [];
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
-    const rows = data.value || [];
+    let rows: any = [];
     setTimeout(() => {
+        rows = data.value || [];
         loading.value = false;
     }, 1000);
 
@@ -65,5 +66,10 @@
         ]) || [];
 
     const { data: data1 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows1 = data1.value || [];
+    let rows1: any = [];
+    const loading1: any = ref(true);
+    setTimeout(() => {
+        rows1 = data1.value || [];
+        loading1.value = false;
+    }, 1000);
 </script>

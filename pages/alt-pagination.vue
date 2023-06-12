@@ -20,7 +20,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows1" :columns="cols1" :totalRows="rows1?.length" :showFirstPage="false" :showLastPage="false"> </vue3-datatable>
+        <vue3-datatable :rows="rows1" :columns="cols1" :loading="loading1" :showFirstPage="false" :showLastPage="false"> </vue3-datatable>
 
         <!-- pagination without number -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -31,7 +31,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows2" :columns="cols2" :totalRows="rows2?.length" :showNumbers="false"> </vue3-datatable>
+        <vue3-datatable :rows="rows2" :columns="cols2" :loading="loading2" :showNumbers="false"> </vue3-datatable>
 
         <!-- next previous -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -43,9 +43,9 @@
         </div>
 
         <vue3-datatable
-            :rows="rows2"
-            :columns="cols2"
-            :totalRows="rows2?.length"
+            :rows="rows3"
+            :columns="cols3"
+            :loading="loading3"
             :showNumbers="false"
             :showFirstPage="false"
             :showLastPage="false"
@@ -74,8 +74,9 @@
         ]) || [];
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
-    const rows = data.value || [];
+    let rows: any = [];
     setTimeout(() => {
+        rows = data.value || [];
         loading.value = false;
     }, 1000);
 
@@ -89,7 +90,12 @@
             { field: 'phone', title: 'Phone' },
         ]) || [];
     const { data: data1 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows1 = data1.value || [];
+    const loading1: any = ref(true);
+    let rows1: any = [];
+    setTimeout(() => {
+        rows1 = data1.value || [];
+        loading1.value = false;
+    }, 1000);
 
     // pagination without number
     const cols2 =
@@ -102,7 +108,12 @@
         ]) || [];
 
     const { data: data2 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows2 = data2.value || [];
+    const loading2: any = ref(true);
+    let rows2: any = [];
+    setTimeout(() => {
+        rows2 = data2.value || [];
+        loading2.value = false;
+    }, 1000);
 
     // next previous
     const cols3 =
@@ -115,7 +126,12 @@
         ]) || [];
 
     const { data: data3 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows3 = data3.value || [];
+    const loading3: any = ref(true);
+    let rows3: any = [];
+    setTimeout(() => {
+        rows3 = data3.value || [];
+        loading3.value = false;
+    }, 1000);
 </script>
 <style>
     /* alt-pagination */

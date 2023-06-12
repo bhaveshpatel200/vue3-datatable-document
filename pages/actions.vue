@@ -14,8 +14,8 @@
             </template>
             <template #actions="data">
                 <div class="flex gap-4">
-                    <button type="button" class="btn btn-success" @click="viewUser(data.value)">View</button>
-                    <button type="button" class="btn btn-danger" @click="deleteUser(data.value)">Delete</button>
+                    <button type="button" class="btn btn-success !py-1" @click="viewUser(data.value)">View</button>
+                    <button type="button" class="btn btn-danger !py-1" @click="deleteUser(data.value)">Delete</button>
                 </div>
             </template>
         </vue3-datatable>
@@ -38,8 +38,9 @@
         ]) || [];
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
-    const rows = data.value || [];
+    let rows: any = [];
     setTimeout(() => {
+        rows = data.value || [];
         loading.value = false;
     }, 1000);
 

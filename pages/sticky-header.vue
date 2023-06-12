@@ -23,7 +23,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows1" :columns="cols1" :totalRows="rows1?.length" :sortable="true" :hasCheckbox="true" :stickyFirstColumn="true">
+        <vue3-datatable :rows="rows1" :columns="cols1" :loading="loading1" :sortable="true" :hasCheckbox="true" :stickyFirstColumn="true">
             <template #id="data">
                 <strong>#{{ data.value.id }}</strong>
             </template>
@@ -41,7 +41,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows2" :columns="cols2" :totalRows="rows2?.length" :sortable="true" :pageSize="20" :hasCheckbox="true" :stickyFirstColumn="true" :stickyHeader="true">
+        <vue3-datatable :rows="rows2" :columns="cols2" :loading="loading2" :sortable="true" :pageSize="20" :hasCheckbox="true" :stickyFirstColumn="true" :stickyHeader="true">
             <template #id="data">
                 <strong>#{{ data.value.id }}</strong>
             </template>
@@ -67,8 +67,9 @@
         ]) || [];
 
     const { data } = await useFetch(config.SITE_URL + '/data.json');
-    const rows = data.value || [];
+    let rows: any = [];
     setTimeout(() => {
+        rows = data.value || [];
         loading.value = false;
     }, 1000);
 
@@ -88,7 +89,12 @@
         ]) || [];
 
     const { data: data1 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows1 = data1.value || [];
+    let rows1: any = [];
+    const loading1: any = ref(true);
+    setTimeout(() => {
+        rows1 = data1.value || [];
+        loading1.value = false;
+    }, 1000);
 
     // sticky hader & first column
     const cols2 =
@@ -106,7 +112,12 @@
         ]) || [];
 
     const { data: data2 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows2 = data2.value || [];
+    let rows2: any = [];
+    const loading2: any = ref(true);
+    setTimeout(() => {
+        rows2 = data2.value || [];
+        loading2.value = false;
+    }, 1000);
 </script>
 <style>
     .sticky-table .bh-table-responsive table thead tr th {

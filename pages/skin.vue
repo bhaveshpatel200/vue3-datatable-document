@@ -19,7 +19,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows1" :columns="cols" :totalRows="rows1?.length" skin="bh-table-hover"> </vue3-datatable>
+        <vue3-datatable :rows="rows1" :columns="cols" :loading="loading1" skin="bh-table-hover"> </vue3-datatable>
 
         <!-- bordered -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -30,7 +30,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows2" :columns="cols" :totalRows="rows2?.length" skin="bh-table-bordered"> </vue3-datatable>
+        <vue3-datatable :rows="rows2" :columns="cols" :loading="loading2" skin="bh-table-bordered"> </vue3-datatable>
 
         <!-- compact -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -41,7 +41,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows3" :columns="cols" :totalRows="rows3?.length" skin="bh-table-compact"> </vue3-datatable>
+        <vue3-datatable :rows="rows3" :columns="cols" :loading="loading3" skin="bh-table-compact"> </vue3-datatable>
 
         <!-- all -->
         <div class="flex items-center justify-between mb-5 border-t border-gray-200 mt-10 pt-10">
@@ -52,7 +52,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows4" :columns="cols" :totalRows="rows4?.length" skin="bh-table-striped bh-table-hover bh-table-bordered bh-table-compact"> </vue3-datatable>
+        <vue3-datatable :rows="rows4" :columns="cols" :loading="loading4" skin="bh-table-striped bh-table-hover bh-table-bordered bh-table-compact"> </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
@@ -72,24 +72,45 @@
 
     // striped
     const { data } = await useFetch(config.SITE_URL + '/data.json');
-    const rows = data.value || [];
+    let rows: any = [];
     setTimeout(() => {
+        rows = data.value || [];
         loading.value = false;
     }, 1000);
 
     // hover
     const { data: data1 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows1 = data1.value || [];
+    let rows1: any = [];
+    const loading1: any = ref(true);
+    setTimeout(() => {
+        rows1 = data1.value || [];
+        loading1.value = false;
+    }, 1000);
 
     // bordered
     const { data: data2 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows2 = data2.value || [];
+    let rows2: any = [];
+    const loading2: any = ref(true);
+    setTimeout(() => {
+        rows2 = data2.value || [];
+        loading2.value = false;
+    }, 1000);
 
     // compact
     const { data: data3 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows3 = data3.value || [];
+    let rows3: any = [];
+    const loading3: any = ref(true);
+    setTimeout(() => {
+        rows3 = data3.value || [];
+        loading3.value = false;
+    }, 1000);
 
     // all
     const { data: data4 } = await useFetch(config.SITE_URL + '/data.json');
-    const rows4 = data4.value || [];
+    let rows4: any = [];
+    const loading4: any = ref(true);
+    setTimeout(() => {
+        rows4 = data4.value || [];
+        loading4.value = false;
+    }, 1000);
 </script>
