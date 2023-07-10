@@ -1,16 +1,14 @@
 <template>
     <div>
         <div class="flex items-center justify-between mb-5">
-            <h2 class="text-3xl">Checkbox</h2>
-            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/checkbox.vue" class="btn">
+            <h2 class="text-3xl">Static Mode</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/static-mode.vue" class="btn">
                 <icon-github class="w-5 h-5 mr-2" />
                 View Source
             </a>
         </div>
 
-        <!-- <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :hasCheckbox="true"> </vue3-datatable> -->
-        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :totalRows="total_rows" :isServerMode="true" :pageSize="params.pagesize" :hasCheckbox="true" @change="changeServer">
-        </vue3-datatable>
+        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :sortable="true"> </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
@@ -18,15 +16,13 @@
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const config = useRuntimeConfig();
-    const loading: any = ref(true);
-    const total_rows = ref(0);
 
-    const params = reactive({
-        current_page: 1,
-        pagesize: 10,
+    onMounted(() => {
+        getUsers();
     });
-    const rows: any = ref(null);
 
+    const loading: any = ref(true);
+    const rows: any = ref(null);
     const cols =
         ref([
             { field: 'id', title: 'ID', isUnique: true },
@@ -39,30 +35,20 @@
             { field: 'isActive', title: 'Active', type: 'bool' },
         ]) || [];
 
-    onMounted(() => {
-        getUsers();
-    });
     const getUsers = async () => {
         try {
             loading.value = true;
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params),
+                body: JSON.stringify({ pagesize: 500 }),
             });
 
             const data = await response.json();
 
             rows.value = data?.data;
-            total_rows.value = data?.meta?.total;
         } catch {}
 
         loading.value = false;
-    };
-    const changeServer = (data: any) => {
-        params.current_page = data.current_page;
-        params.pagesize = data.pagesize;
-
-        getUsers();
     };
 </script>

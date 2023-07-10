@@ -10,101 +10,103 @@
                 </NuxtLink>
             </div>
 
-            <ul class="relative space-y-0.5 text-gray-500 pb-5">
+            <ul class="relative space-y-0.5 text-gray-500 pb-8">
                 <li class="menu nav-item">
                     <NuxtLink to="/" class="nav-link">
-                        <div class="flex items-center">
-                            <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5">
-                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        <div class="flex items-center gap-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z"></path>
+                                <path d="M19 16h-12a2 2 0 0 0 -2 2"></path>
+                                <path d="M9 8h6"></path>
                             </svg>
-                            <span class="ml-3"> Documentation </span>
+                            <span> Documentation </span>
                         </div>
                     </NuxtLink>
                 </li>
 
-                <ul class="!mt-3 pl-5">
+                <ul class="pl-5">
                     <li class="sub-item">
-                        <NuxtLink to="/#install">
-                            <span class="mr-2 text-2xl leading-5">•</span>
-                            Installation
-                        </NuxtLink>
+                        <NuxtLink to="/#install"> <icon-arrow-sub /> Installation </NuxtLink>
                     </li>
                     <li class="sub-item">
-                        <NuxtLink to="/#props"><span class="mr-2 text-2xl leading-5">•</span> Props </NuxtLink>
+                        <NuxtLink to="/#props"><icon-arrow-sub /> Props </NuxtLink>
                     </li>
                     <li class="sub-item">
-                        <NuxtLink to="/#events"><span class="mr-2 text-2xl leading-5">•</span> Events </NuxtLink>
+                        <NuxtLink to="/#events"><icon-arrow-sub /> Events </NuxtLink>
                     </li>
                     <li class="sub-item">
-                        <NuxtLink to="/#methods"><span class="mr-2 text-2xl leading-5">•</span> Methods </NuxtLink>
+                        <NuxtLink to="/#methods"><icon-arrow-sub /> Methods </NuxtLink>
                     </li>
                     <li class="sub-item">
-                        <NuxtLink to="/#slots"><span class="mr-2 text-2xl leading-5">•</span> Slots </NuxtLink>
+                        <NuxtLink to="/#slots"><icon-arrow-sub /> Slots </NuxtLink>
                     </li>
                     <li class="sub-item">
-                        <NuxtLink to="/#usage"><span class="mr-2 text-2xl leading-5">•</span> Usage </NuxtLink>
+                        <NuxtLink to="/#usage"><icon-arrow-sub /> Usage </NuxtLink>
                     </li>
                     <li class="sub-item">
-                        <NuxtLink to="/#license"><span class="mr-2 text-2xl leading-5">•</span> License </NuxtLink>
+                        <NuxtLink to="/#license"><icon-arrow-sub /> License </NuxtLink>
                     </li>
                     <li class="sub-item">
-                        <NuxtLink to="/#support"><span class="mr-2 text-2xl leading-5">•</span> Support </NuxtLink>
+                        <NuxtLink to="/#support"><icon-arrow-sub /> Support </NuxtLink>
                     </li>
                 </ul>
 
                 <li class="px-3 pt-5 pb-3 text-sm font-semibold leading-none uppercase text-black">Examples</li>
 
                 <li class="menu nav-item">
-                    <NuxtLink to="/advanced" class="nav-link"> Advanced </NuxtLink>
+                    <NuxtLink to="/static-mode" class="nav-link"><icon-grid-static /> Static Mode </NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/basic" class="nav-link"> Basic </NuxtLink>
+                    <NuxtLink to="/advanced" class="nav-link"><icon-grid-advanced /> Advanced </NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/sorting" class="nav-link">Sorting</NuxtLink>
+                    <NuxtLink to="/basic" class="nav-link"><icon-grid /> Basic </NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/alt-pagination" class="nav-link">Alt Pagination</NuxtLink>
+                    <NuxtLink to="/sorting" class="nav-link"><icon-grid-sort /> Sorting</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/custom-page-size" class="nav-link"> Custom Page Size & Info </NuxtLink>
+                    <NuxtLink to="/alt-pagination" class="nav-link"><icon-grid-pagination /> Alt Pagination</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/search" class="nav-link">Global Search</NuxtLink>
+                    <NuxtLink to="/custom-page-size" class="nav-link"><icon-grid-custom /> Custom Page Size & Info </NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/checkbox" class="nav-link">Checkbox</NuxtLink>
+                    <NuxtLink to="/search" class="nav-link"><icon-grid-search /> Global Search</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/slot" class="nav-link">Slot</NuxtLink>
+                    <NuxtLink to="/checkbox" class="nav-link"><icon-grid-checkbox /> Checkbox</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/custom-message" class="nav-link">Custom Text</NuxtLink>
+                    <NuxtLink to="/slot" class="nav-link"><icon-grid-slot /> Slot</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/column-filter" class="nav-link">Column Filter</NuxtLink>
+                    <NuxtLink to="/custom-message" class="nav-link"><icon-grid-custom /> Custom Text</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/skin" class="nav-link">Skin</NuxtLink>
+                    <NuxtLink to="/column-filter" class="nav-link"><icon-grid-filter /> Column Filter</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/actions" class="nav-link">Actions</NuxtLink>
+                    <NuxtLink to="/skin" class="nav-link"><icon-grid-skin /> Skin</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/rowclick" class="nav-link">Row Click</NuxtLink>
+                    <NuxtLink to="/actions" class="nav-link"><icon-grid-action /> Actions</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/sticky-header" class="nav-link">Sticky Header</NuxtLink>
+                    <NuxtLink to="/rowclick" class="nav-link"><icon-grid-click /> Row Click</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/header-clone" class="nav-link">Clone Header</NuxtLink>
+                    <NuxtLink to="/sticky-header" class="nav-link"><icon-grid-sticky /> Sticky Header</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/columnchooser" class="nav-link">Column Chooser</NuxtLink>
+                    <NuxtLink to="/header-clone" class="nav-link"><icon-grid-clone /> Clone Header</NuxtLink>
                 </li>
                 <li class="menu nav-item">
-                    <NuxtLink to="/skeleton-loader" class="nav-link">Skeleton Loader</NuxtLink>
+                    <NuxtLink to="/columnchooser" class="nav-link"><icon-grid-column /> Column Chooser</NuxtLink>
+                </li>
+                <li class="menu nav-item">
+                    <NuxtLink to="/skeleton-loader" class="nav-link"><icon-grid-loader /> Skeleton Loader</NuxtLink>
                 </li>
                 <li class="menu nav-item pt-4">Coming Soon (More Samples)</li>
             </ul>

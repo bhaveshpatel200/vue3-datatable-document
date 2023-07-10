@@ -60,12 +60,21 @@
                                 <td>[]</td>
                                 <td>table rows</td>
                             </tr>
-                            <!-- <tr>
-                                <td class="font-semibold">totalRows (required)</td>
+                            <tr>
+                                <td class="font-semibold">isServerMode</td>
+                                <td align="left">boolean</td>
+                                <td>false</td>
+                                <td>set <strong>true</strong> if you need server side pagination.</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">totalRows</td>
                                 <td align="left">number</td>
                                 <td>0</td>
-                                <td>total number of rows</td>
-                            </tr> -->
+                                <td>
+                                    total number of rows. <br />
+                                    <strong>totalRows</strong> required when <strong>isServerMode</strong> is true.
+                                </td>
+                            </tr>
                             <tr>
                                 <td class="font-semibold">skin</td>
                                 <td align="left">string</td>
@@ -581,14 +590,20 @@
         <div id="license">
             <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">License</h2>
             <div class="text-lg">
-                @bhplugin/vue3-datatable is open-sourced software licensed under the
+                <strong>@bhplugin/vue3-datatable</strong> is open-sourced software licensed under the
                 <a target="_blank" href="http://opensource.org/licenses/MIT" class="text-primary hover:underline"> [MIT license] </a>
+            </div>
+        </div>
+        <div id="plugins">
+            <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Our other plugins</h2>
+            <div class="text-lg">
+                Angular Datatable - <a target="_blank" href="https://www.npmjs.com/package/@bhplugin/ng-datatable" class="text-primary hover:underline"> @bhplugin/ng-datatable </a>
             </div>
         </div>
         <div id="support" class="pb-28">
             <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Support</h2>
             <div>
-                <a href="https://www.buymeacoffee.com/bhplugin" target="_blank">
+                <a href="https://www.buymeacoffee.com/bhplugin" target="_blank" class="inline-flex">
                     <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important; width: 217px !important" />
                 </a>
             </div>

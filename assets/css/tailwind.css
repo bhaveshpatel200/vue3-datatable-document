@@ -9,15 +9,15 @@
 
     /* sidebar */
     .sidebar .nav-link {
-        @apply w-full mb-1 flex items-center whitespace-nowrap rounded-md px-2.5 py-2 hover:bg-black/[0.08] hover:text-gray-800 transition duration-300;
+        @apply w-full flex items-center gap-1 whitespace-nowrap rounded-md px-2.5 py-1.5 hover:text-primary hover:font-semibold transition duration-300;
     }
 
     .sidebar .nav-link.router-link-exact-active {
-        @apply bg-black/[0.08] text-gray-800;
+        @apply text-primary font-semibold;
     }
 
     .sidebar .sub-item > a {
-        @apply w-full mb-1 flex items-center whitespace-nowrap rounded-md px-2.5 py-2 hover:bg-black/[0.08] hover:text-gray-800 transition duration-300;
+        @apply w-full flex items-center gap-1.5 whitespace-nowrap rounded-md px-2.5 py-1 hover:text-primary hover:font-semibold transition duration-300;
     }
 
     /* Form */

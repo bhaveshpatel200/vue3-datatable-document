@@ -8,7 +8,19 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :sortable="true" :loading="loading" class="advanced-table whitespace-nowrap">
+        <vue3-datatable
+            :rows="rows"
+            :columns="cols"
+            :loading="loading"
+            :totalRows="total_rows"
+            :isServerMode="true"
+            :pageSize="params.pagesize"
+            :sortable="true"
+            :sortColumn="params.sort_column"
+            :sortDirection="params.sort_direction"
+            class="advanced-table whitespace-nowrap"
+            @change="changeServer"
+        >
             <template #id="data">
                 <strong class="text-info">#{{ data.value.id }}</strong>
             </template>
@@ -71,8 +83,20 @@
     import '@bhplugin/vue3-datatable/dist/style.css';
     import ApexChart from 'vue3-apexcharts';
     const config = useRuntimeConfig();
-    const loading: any = ref(true);
 
+    onMounted(() => {
+        getUsers();
+    });
+
+    const loading: any = ref(true);
+    const total_rows = ref(0);
+    const params = reactive({
+        current_page: 1,
+        pagesize: 10,
+        sort_column: 'id',
+        sort_direction: 'asc',
+    });
+    const rows: any = ref(null);
     const cols =
         ref([
             { field: 'id', title: 'ID', isUnique: true },
@@ -86,12 +110,31 @@
             { field: 'status', title: 'Status', sort: false },
         ]) || [];
 
-    const { data } = await useFetch(config.SITE_URL + '/data.json');
-    let rows: any = [];
-    setTimeout(() => {
-        rows = data.value || [];
+    const getUsers = async () => {
+        try {
+            loading.value = true;
+
+            const response = await fetch('/api/user', {
+                method: 'POST',
+                body: JSON.stringify(params),
+            });
+
+            const data = await response.json();
+
+            rows.value = data?.data;
+            total_rows.value = data?.meta?.total;
+        } catch {}
+
         loading.value = false;
-    }, 1000);
+    };
+    const changeServer = (data: any) => {
+        params.current_page = data.current_page;
+        params.pagesize = data.pagesize;
+        params.sort_column = data.sort_column;
+        params.sort_direction = data.sort_direction;
+
+        getUsers();
+    };
 
     const countryList = [
         { code: 'AE', name: 'United Arab Emirates' },

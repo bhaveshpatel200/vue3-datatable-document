@@ -9,16 +9,29 @@
         </div>
 
         <div class="mb-5">
-            <input v-model="search" type="text" class="form-input max-w-xs" placeholder="Search..." />
+            <input v-model="params.search" type="text" class="form-input max-w-xs" placeholder="Search..." />
         </div>
 
-        <vue3-datatable
+        <!-- <vue3-datatable
             :rows="rows"
             :columns="cols"
             :loading="loading"
             :search="search"
             noDataContent="No records found in the database."
             paginationInfo="Отображение от {0} до {1} записей из {2} записей"
+        >
+        </vue3-datatable> -->
+        <vue3-datatable
+            :rows="rows"
+            :columns="cols"
+            :loading="loading"
+            :totalRows="total_rows"
+            :isServerMode="true"
+            :pageSize="params.pagesize"
+            :search="params.search"
+            noDataContent="No records found in the database."
+            paginationInfo="Отображение от {0} до {1} записей из {2} записей"
+            @change="changeServer"
         >
         </vue3-datatable>
     </div>
@@ -29,21 +42,75 @@
     import '@bhplugin/vue3-datatable/dist/style.css';
     const config = useRuntimeConfig();
     const loading: any = ref(true);
+    const total_rows = ref(0);
 
-    const search = ref('');
+    const params = reactive({
+        current_page: 1,
+        pagesize: 10,
+        search: '',
+        column_filters: [],
+    });
+    const rows: any = ref(null);
+
     const cols =
         ref([
-            { field: 'id', title: 'ID' },
+            { field: 'id', title: 'ID', isUnique: true },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },
-            { field: 'phone', title: 'Phone' },
+            { field: 'age', title: 'Age', type: 'number' },
+            { field: 'dob', title: 'Birthdate', type: 'date' },
+            { field: 'address.city', title: 'City' },
+            { field: 'isActive', title: 'Active', type: 'bool' },
         ]) || [];
 
-    const { data } = await useFetch(config.SITE_URL + '/data.json');
-    let rows: any = [];
-    setTimeout(() => {
-        rows = data.value || [];
+    onMounted(() => {
+        getUsers();
+    });
+
+    let controller: any;
+    let timer: any;
+    const filterUsers = () => {
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            getUsers();
+        }, 300);
+    };
+    const getUsers = async () => {
+        try {
+            // cancel request if previous request still pending before next request fire
+            if (controller) {
+                controller.abort();
+            }
+            controller = new AbortController();
+            const signal = controller.signal;
+
+            loading.value = true;
+
+            const response = await fetch('/api/user', {
+                method: 'POST',
+                body: JSON.stringify(params),
+                signal: signal, // Assign the signal to the fetch request
+            });
+
+            const data = await response.json();
+
+            rows.value = data?.data;
+            total_rows.value = data?.meta?.total;
+        } catch {}
+
         loading.value = false;
-    }, 1000);
+    };
+    const changeServer = (data: any) => {
+        params.current_page = data.current_page;
+        params.pagesize = data.pagesize;
+        params.column_filters = data.column_filters;
+        params.search = data.search;
+
+        if (data.change_type === 'search') {
+            filterUsers();
+        } else {
+            getUsers();
+        }
+    };
 </script>
