@@ -203,6 +203,6 @@ const delayFunction = () => {
                 y++;
             }
             resolve(y);
-        }, 400);
+        }, 200);
     });
 };
