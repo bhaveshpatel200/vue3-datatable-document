@@ -13,28 +13,28 @@ export default defineEventHandler(async (event) => {
             if (d.type === 'string') {
                 if (d.condition === 'contain') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field]?.toString().toLowerCase().includes(d.value.toLowerCase());
+                        return cellValue(item, d.field)?.toString().toLowerCase().includes(d.value.toLowerCase());
                     });
                 } else if (d.condition === 'not_contain') {
                     rows = rows.filter((item: any) => {
-                        return !item[d.field]?.toString().toLowerCase().includes(d.value.toLowerCase());
+                        return !cellValue(item, d.field)?.toString().toLowerCase().includes(d.value.toLowerCase());
                     });
                 } else if (d.condition === 'equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field]?.toString().toLowerCase() === d.value.toLowerCase();
+                        return cellValue(item, d.field)?.toString().toLowerCase() === d.value.toLowerCase();
                     });
                 } else if (d.condition === 'not_equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field]?.toString().toLowerCase() !== d.value.toLowerCase();
+                        return cellValue(item, d.field)?.toString().toLowerCase() !== d.value.toLowerCase();
                     });
                 } else if (d.condition == 'start_with') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field]?.toString().toLowerCase().indexOf(d.value.toLowerCase()) === 0;
+                        return cellValue(item, d.field)?.toString().toLowerCase().indexOf(d.value.toLowerCase()) === 0;
                     });
                 } else if (d.condition == 'end_with') {
                     rows = rows.filter((item: any) => {
                         return (
-                            item[d.field]
+                            cellValue(item, d.field)
                                 ?.toString()
                                 .toLowerCase()
                                 .substr(d.value.length * -1) === d.value.toLowerCase()
@@ -46,27 +46,27 @@ export default defineEventHandler(async (event) => {
             else if (d.type === 'number') {
                 if (d.condition === 'equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && parseFloat(item[d.field]) === parseFloat(d.value);
+                        return cellValue(item, d.field) && parseFloat(cellValue(item, d.field)) === parseFloat(d.value);
                     });
                 } else if (d.condition === 'not_equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && parseFloat(item[d.field]) !== parseFloat(d.value);
+                        return cellValue(item, d.field) && parseFloat(cellValue(item, d.field)) !== parseFloat(d.value);
                     });
                 } else if (d.condition === 'greater_than') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && parseFloat(item[d.field]) > parseFloat(d.value);
+                        return cellValue(item, d.field) && parseFloat(cellValue(item, d.field)) > parseFloat(d.value);
                     });
                 } else if (d.condition === 'greater_than_equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && parseFloat(item[d.field]) >= parseFloat(d.value);
+                        return cellValue(item, d.field) && parseFloat(cellValue(item, d.field)) >= parseFloat(d.value);
                     });
                 } else if (d.condition === 'less_than') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && parseFloat(item[d.field]) < parseFloat(d.value);
+                        return cellValue(item, d.field) && parseFloat(cellValue(item, d.field)) < parseFloat(d.value);
                     });
                 } else if (d.condition === 'less_than_equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && parseFloat(item[d.field]) <= parseFloat(d.value);
+                        return cellValue(item, d.field) && parseFloat(cellValue(item, d.field)) <= parseFloat(d.value);
                     });
                 }
             }
@@ -74,38 +74,38 @@ export default defineEventHandler(async (event) => {
             else if (d.type === 'date') {
                 if (d.condition === 'equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && dateFormat(item[d.field]) === d.value;
+                        return cellValue(item, d.field) && dateFormat(cellValue(item, d.field)) === d.value;
                     });
                 } else if (d.condition === 'not_equal') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && dateFormat(item[d.field]) !== d.value;
+                        return cellValue(item, d.field) && dateFormat(cellValue(item, d.field)) !== d.value;
                     });
                 } else if (d.condition === 'greater_than') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && dateFormat(item[d.field]) > d.value;
+                        return cellValue(item, d.field) && dateFormat(cellValue(item, d.field)) > d.value;
                     });
                 } else if (d.condition === 'less_than') {
                     rows = rows.filter((item: any) => {
-                        return item[d.field] && dateFormat(item[d.field]) < d.value;
+                        return cellValue(item, d.field) && dateFormat(cellValue(item, d.field)) < d.value;
                     });
                 }
             }
             // boolean filters
             else if (d.type === 'bool') {
                 rows = rows.filter((item: any) => {
-                    return item[d.field] === d.value;
+                    return cellValue(item, d.field) === d.value;
                 });
             }
 
             if (d.condition === 'is_null') {
                 rows = rows.filter((item: any) => {
-                    return item[d.field] == null || item[d.field] == '';
+                    return cellValue(item, d.field) == null || cellValue(item, d.field) == '';
                 });
                 d.value = '';
             } else if (d.condition === 'is_not_null') {
                 d.value = '';
                 rows = rows.filter((item: any) => {
-                    return item[d.field];
+                    return cellValue(item, d.field);
                 });
             }
         }

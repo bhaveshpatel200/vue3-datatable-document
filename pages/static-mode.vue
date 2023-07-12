@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :sortable="true"> </vue3-datatable>
+        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :sortable="true" :columnFilter="true"> </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
