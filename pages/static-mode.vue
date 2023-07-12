@@ -52,3 +52,8 @@
         loading.value = false;
     };
 </script>
+<style>
+    .bh-datatable .bh-table-responsive {
+        @apply min-h-[380px];
+    }
+</style>
