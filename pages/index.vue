@@ -1,5 +1,13 @@
 <template>
     <div class="space-y-8">
+        <div class="p-3 bg-success-light text-success rounded-lg flex items-center flex-wrap">
+            <span class="mr-2"><icon-announcement /></span>
+            <div>
+                The <span class="font-semibold">@bhplugin/vue3-datatable</span> now offers support for <span class="font-semibold">Server Side Rendering</span>. Please check the
+                <a href="#props" class="underline hover:no-underline"><span class="font-semibold">"isServerMode"</span></a> prop to enable this feature.
+            </div>
+        </div>
+
         <div id="install">
             <div>
                 <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Installation</h2>
