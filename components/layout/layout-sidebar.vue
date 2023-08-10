@@ -108,6 +108,9 @@
                 <li class="menu nav-item">
                     <NuxtLink to="/skeleton-loader" class="nav-link"><icon-grid-loader /> Skeleton Loader</NuxtLink>
                 </li>
+                <li class="menu nav-item">
+                    <NuxtLink to="/methods" class="nav-link"><icon-grid-method /> Methods</NuxtLink>
+                </li>
                 <li class="menu nav-item pt-4">Coming Soon (More Samples)</li>
             </ul>
         </div>
