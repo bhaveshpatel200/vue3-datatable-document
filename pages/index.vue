@@ -174,6 +174,16 @@
                                 <td>enable individual column filter</td>
                             </tr>
                             <tr>
+                                <td class="font-semibold">columnFilterLang</td>
+                                <td align="left">records&lt;string,string&gt;</td>
+                                <td>null</td>
+                                <td>
+                                    columns filters translation (<strong>ex</strong>: {no_filter: 'Aucun', contain: 'Contiens', not_contain: 'Ne contiens pas', equal: 'Egale', not_equal: 'Différent',
+                                    start_with: 'Commence par', end_with: 'Termine par', greater_than: 'Supérieur à', greater_than_equal: 'Sup. ou égale à', less_than: 'Inférieur à', less_than_equal:
+                                    'Inf. ou égale à', is_null: 'Est null', is_not_null: 'Non null'} )
+                                </td>
+                            </tr>
+                            <tr>
                                 <td class="font-semibold">pagination</td>
                                 <td align="left">boolean</td>
                                 <td>true</td>
@@ -462,12 +472,16 @@
                             <td>will reset all options like selected rows, filter, search, currennt page etc</td>
                         </tr>
                         <tr>
-                            <td class="font-semibold">getSelectedRows</td>
-                            <td>will returns all selected rows</td>
+                            <td class="font-semibold">getFilteredRows</td>
+                            <td>will returns all filtered rows</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">getColumnFilters</td>
                             <td>will return all column filters</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">getSelectedRows</td>
+                            <td>will returns all selected rows</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">clearSelectedRows</td>
