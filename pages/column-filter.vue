@@ -40,7 +40,7 @@
 
     const cols =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },

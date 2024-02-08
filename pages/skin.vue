@@ -102,7 +102,7 @@
     const rows: any = ref(null);
     const cols =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },
@@ -142,7 +142,7 @@
     const rows1: any = ref(null);
     const cols1 =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },
@@ -182,7 +182,7 @@
     const rows2: any = ref(null);
     const cols2 =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },
@@ -222,7 +222,7 @@
     const rows3: any = ref(null);
     const cols3 =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },
@@ -262,7 +262,7 @@
     const rows4: any = ref(null);
     const cols4 =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
             { field: 'firstName', title: 'First Name' },
             { field: 'lastName', title: 'Last Name' },
             { field: 'email', title: 'Email' },

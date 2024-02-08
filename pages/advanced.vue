@@ -99,7 +99,7 @@
     const rows: any = ref(null);
     const cols =
         ref([
-            { field: 'id', title: 'ID', isUnique: true },
+            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
             { field: 'firstName', title: 'User' },
             { field: 'country', title: 'Country', sort: false },
             { field: 'email', title: 'Email' },

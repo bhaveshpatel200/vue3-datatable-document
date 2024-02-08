@@ -1,14 +1,14 @@
 <template>
     <div>
         <div class="flex items-center justify-between mb-5">
-            <h2 class="text-3xl">Static Mode</h2>
-            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/static-mode.vue" class="btn">
+            <h2 class="text-3xl">Pagination Hidden</h2>
+            <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable-document/blob/main/pages/pagination-hide.vue" class="btn">
                 <icon-github class="w-5 h-5 mr-2" />
                 View Source
             </a>
         </div>
 
-        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :sortable="true" :columnFilter="true"> </vue3-datatable>
+        <vue3-datatable :loading="loading" :rows="rows" :columns="cols" :sortable="true" :pagination="false"></vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
