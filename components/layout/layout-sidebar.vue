@@ -114,6 +114,9 @@
                 <li class="menu nav-item">
                     <NuxtLink to="/pagination-hide" class="nav-link"><icon-grid-pagination /> Pagination Hidden</NuxtLink>
                 </li>
+                <li class="menu nav-item">
+                    <NuxtLink to="/export" class="nav-link"><icon-grid-export /> Export</NuxtLink>
+                </li>
                 <li class="menu nav-item pt-4">Coming Soon (More Samples)</li>
             </ul>
         </div>

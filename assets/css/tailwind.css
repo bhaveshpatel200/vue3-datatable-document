@@ -36,7 +36,10 @@
 
     /* buttons */
     .btn {
-        @apply inline-flex items-center border !bg-primary border-primary rounded px-4 py-2 text-white hover:!bg-white hover:text-primary transition duration-300;
+        @apply inline-flex gap-1.5 items-center border !bg-primary border-primary rounded px-4 py-2 text-white hover:!bg-white hover:text-primary transition duration-300;
+    }
+    .btn-small {
+        @apply px-3 py-[5px];
     }
     .btn-outline {
         @apply text-primary hover:text-white !bg-white hover:!bg-primary;

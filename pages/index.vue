@@ -1,5 +1,14 @@
 <template>
     <div class="space-y-8">
+        <div class="p-3 bg-warning-light text-black rounded-lg flex items-center flex-wrap">
+            <span class="mr-2"><icon-announcement></icon-announcement></span>
+            <div>
+                "Love using
+                <a target="_blank" href="https://github.com/bhaveshpatel200/vue3-datatable" class="text-primary underline hover:no-underline font-semibold">@bhplugin/vue3-datatable</a>? Don't forget
+                to <strong>Star it on GitHub</strong> and help others discover it!"
+            </div>
+        </div>
+
         <div class="p-3 bg-success-light text-success rounded-lg flex items-center flex-wrap">
             <span class="mr-2"><icon-announcement /></span>
             <div>
