@@ -26,10 +26,9 @@
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
-    const config = useRuntimeConfig();
 
     onMounted(() => {
         getUsers();
@@ -56,7 +55,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify({ pagesize: 500 }),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw({ pagesize: 500 })),
             });
 
             const data = await response.json();

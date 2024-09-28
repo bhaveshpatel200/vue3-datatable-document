@@ -68,7 +68,7 @@
                 <strong>#{{ data.value.id }}</strong>
             </template>
             <template #email="data">
-                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline">{{ data.value.email }}</a>
+                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline" @click.stop>{{ data.value.email }}</a>
             </template>
         </vue3-datatable>
 
@@ -108,16 +108,15 @@
                 <strong>#{{ data.value.id }}</strong>
             </template>
             <template #email="data">
-                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline">{{ data.value.email }}</a>
+                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline" @click.stop>{{ data.value.email }}</a>
             </template>
         </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
-    const config = useRuntimeConfig();
 
     onMounted(() => {
         getUsers();
@@ -153,7 +152,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params)),
             });
 
             const data = await response.json();
@@ -201,7 +201,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params1),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params1)),
             });
 
             const data = await response.json();
@@ -249,7 +250,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params2),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params2)),
             });
 
             const data = await response.json();

@@ -3,7 +3,8 @@ export default defineEventHandler(async (event) => {
     const params = await readBody(event);
 
     let result: any = [];
-    let rows: any = await $fetch(config.SITE_URL + '/data.json');
+    let rows: any = await $fetch(config.public.SITE_URL + '/data.json');
+
     let total = 0;
     const offset = (<number>params.current_page - 1) * <number>params.pagesize + 1;
 
@@ -138,7 +139,6 @@ export default defineEventHandler(async (event) => {
         sensitivity: 'base',
     });
     const sortOrder = params.sort_direction === 'desc' ? -1 : 1;
-    const arr = params.sort_column?.split('.');
 
     rows.sort((a: any, b: any): number => {
         const valA = params.sort_column?.split('.').reduce((obj: any, key: string) => obj?.[key], a);

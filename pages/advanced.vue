@@ -37,7 +37,7 @@
                 </div>
             </template>
             <template #email="data">
-                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline">{{ data.value.email }}</a>
+                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline" @click.stop>{{ data.value.email }}</a>
             </template>
             <template #age>
                 <div class="progress-bar">
@@ -78,11 +78,10 @@
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     import ApexChart from 'vue3-apexcharts';
-    const config = useRuntimeConfig();
 
     onMounted(() => {
         getUsers();
@@ -116,7 +115,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params)),
             });
 
             const data = await response.json();

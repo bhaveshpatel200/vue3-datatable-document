@@ -24,10 +24,9 @@
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
-    const config = useRuntimeConfig();
     const loading: any = ref(true);
     const total_rows = ref(0);
 
@@ -75,7 +74,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params)),
                 signal: signal, // Assign the signal to the fetch request
             });
 

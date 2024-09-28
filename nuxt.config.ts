@@ -35,8 +35,10 @@ export default defineNuxtConfig({
 
     modules: ['@pinia/nuxt'],
 
-    publicRuntimeConfig: {
-        SITE_URL: process.env.SITE_URL,
+    runtimeConfig: {
+        public: {
+            SITE_URL: process.env.NUXT_SITE_URL,
+        },
     },
 
     postcss: {

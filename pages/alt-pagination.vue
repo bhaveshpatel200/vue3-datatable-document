@@ -107,10 +107,9 @@
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
-    const config = useRuntimeConfig();
     const loading: any = ref(true);
     const total_rows = ref(0);
 
@@ -147,7 +146,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params)),
             });
 
             const data = await response.json();
@@ -190,7 +190,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params1),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params1)),
             });
 
             const data = await response.json();
@@ -233,7 +234,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params2),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params2)),
             });
 
             const data = await response.json();
@@ -276,7 +278,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params3),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params3)),
             });
 
             const data = await response.json();

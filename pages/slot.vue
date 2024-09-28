@@ -22,16 +22,15 @@
                 <strong>#{{ data.value.id }}</strong>
             </template>
             <template #email="data">
-                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline">{{ data.value.email }}</a>
+                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline" @click.stop>{{ data.value.email }}</a>
             </template>
         </vue3-datatable>
     </div>
 </template>
 <script setup lang="ts">
-    import { ref } from 'vue';
+    import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
-    const config = useRuntimeConfig();
     const loading: any = ref(true);
     const total_rows = ref(0);
 
@@ -62,7 +61,8 @@
 
             const response = await fetch('/api/user', {
                 method: 'POST',
-                body: JSON.stringify(params),
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(toRaw(params)),
             });
 
             const data = await response.json();
