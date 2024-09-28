@@ -1,6 +1,8 @@
+import { readRawBody } from 'h3';
 const config = useRuntimeConfig();
 export default defineEventHandler(async (event) => {
-    const params = await readBody(event);
+    const rawBody = await readRawBody(event);
+    const params = rawBody ? JSON.parse(rawBody) : {};
 
     let result: any = [];
     let rows: any = await $fetch(config.public.SITE_URL + '/data.json');

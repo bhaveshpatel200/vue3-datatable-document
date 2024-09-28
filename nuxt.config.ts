@@ -26,9 +26,8 @@ export default defineNuxtConfig({
     },
     nitro: {
         routeRules: {
-            '/api/**': {
-                cors: true,
-            },
+            '/api/user': { cors: true },
+            '/api/**': { cors: true },
         },
     },
     css: ['@/assets/css/tailwind.css'],
