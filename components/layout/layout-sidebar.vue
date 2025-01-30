@@ -45,6 +45,9 @@
                         <NuxtLink to="/#usage"><icon-arrow-sub /> Usage </NuxtLink>
                     </li>
                     <li class="sub-item">
+                        <NuxtLink to="/changelog"><icon-arrow-sub /> Changelog </NuxtLink>
+                    </li>
+                    <li class="sub-item">
                         <NuxtLink to="/#license"><icon-arrow-sub /> License </NuxtLink>
                     </li>
                     <li class="sub-item">

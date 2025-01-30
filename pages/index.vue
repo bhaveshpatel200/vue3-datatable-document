@@ -485,6 +485,10 @@
                             <td>will returns all filtered rows</td>
                         </tr>
                         <tr>
+                            <td class="font-semibold">getVisibleRows</td>
+                            <td>will returns all visible rows</td>
+                        </tr>
+                        <tr>
                             <td class="font-semibold">getColumnFilters</td>
                             <td>will return all column filters</td>
                         </tr>

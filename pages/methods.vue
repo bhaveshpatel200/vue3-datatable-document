@@ -10,6 +10,7 @@
 
         <div class="my-6 flex items-center flex-wrap gap-4 font-semibold">
             <button type="button" class="btn btn-outline" @click="getFilteredRows()">Get Filtered Rows</button>
+            <button type="button" class="btn btn-outline" @click="getVisibleRows()">Get Visible Rows</button>
             <button type="button" class="btn btn-outline" @click="getSelectedRows()">Get Selected Rows</button>
             <button type="button" class="btn btn-outline" @click="clearSelectedRows()">Clear Selected Rows</button>
             <button type="button" class="btn btn-outline" @click="selectRow(1)">Select 2<sup class="mr-1">nd</sup> Rows</button>
@@ -69,6 +70,11 @@
         const filteredRows = datatable.value.getFilteredRows();
         console.log(filteredRows);
         alert('Check console log to see the filtered rows');
+    };
+    const getVisibleRows = () => {
+        const visibleRows = datatable.value.getVisibleRows();
+        console.log(visibleRows);
+        alert('Check console log to see the visible rows');
     };
     const getSelectedRows = () => {
         const selected = datatable.value.getSelectedRows();
