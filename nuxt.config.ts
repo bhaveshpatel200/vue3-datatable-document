@@ -26,8 +26,24 @@ export default defineNuxtConfig({
     },
     nitro: {
         routeRules: {
-            '/api/user': { cors: true },
-            '/api/**': { cors: true },
+            '/api/user': {
+                cors: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+                    'Access-Control-Allow-Credentials': 'true',
+                },
+            },
+            '/api/**': {
+                cors: true,
+                headers: {
+                    'Access-Control-Allow-Origin': '*',
+                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                    'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+                    'Access-Control-Allow-Credentials': 'true',
+                },
+            },
         },
     },
     css: ['@/assets/css/tailwind.css'],
