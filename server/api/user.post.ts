@@ -1,6 +1,12 @@
 import { readRawBody } from 'h3';
 const config = useRuntimeConfig();
 export default defineEventHandler(async (event) => {
+    setResponseHeaders(event, {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+    });
+
     const rawBody = await readRawBody(event);
     const params = rawBody ? JSON.parse(rawBody) : {};
 
