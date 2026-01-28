@@ -25,44 +25,52 @@
                 <strong class="text-info">#{{ data.value.id }}</strong>
             </template>
             <template #firstName="data">
-                <div class="flex items-center gap-2">
-                    <img :src="`/assets/images/profile/profile-${getRandomNumber(1, 32)}.jpeg`" class="w-9 h-9 rounded-full max-w-none" alt="user-profile" />
-                    <div class="font-semibold">{{ data.value.firstName + ' ' + data.value.lastName }}</div>
-                </div>
+                <client-only>
+                    <div class="flex items-center gap-2">
+                        <img :src="`/assets/images/profile/profile-${getRandomNumber(1, 32)}.jpeg`" class="w-9 h-9 rounded-full max-w-none" alt="user-profile" />
+                        <div class="font-semibold">{{ data.value.firstName + ' ' + data.value.lastName }}</div>
+                    </div>
+                </client-only>
             </template>
             <template #country>
-                <div class="flex items-center gap-2">
-                    <img width="24" :src="`/assets/images/flags/${getCountry().code}.svg`" class="max-w-none" alt="user profile" />
-                    <div class="text-gray-600">{{ getCountry().name }}</div>
-                </div>
+                <client-only>
+                    <div class="flex items-center gap-2">
+                        <img width="24" :src="`/assets/images/flags/${getCountry().code}.svg`" class="max-w-none" alt="user profile" />
+                        <div class="text-gray-600">{{ getCountry().name }}</div>
+                    </div>
+                </client-only>
             </template>
             <template #email="data">
                 <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline" @click.stop>{{ data.value.email }}</a>
             </template>
             <template #age>
-                <div class="progress-bar">
-                    <div class="progress-line" :style="`width:${getRandomNumber(15, 100)}%; background-color:${randomColor()}`"></div>
-                </div>
+                <client-only>
+                    <div class="progress-bar">
+                        <div class="progress-line" :style="`width:${getRandomNumber(15, 100)}%; background-color:${randomColor()}`"></div>
+                    </div>
+                </client-only>
             </template>
             <template #rating="data">
-                <div class="flex items-center justify-center text-warning">
-                    <div v-for="i in getRandomNumber(1, 5)" :key="i + data.value.id">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            viewBox="0 0 24 24"
-                            fill="#e2a03f"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="feather feather-star f-icon-line"
-                        >
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
+                <client-only>
+                    <div class="flex items-center justify-center text-warning">
+                        <div v-for="i in getRandomNumber(1, 5)" :key="i + data.value.id">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="#e2a03f"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="feather feather-star f-icon-line"
+                            >
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </div>
                     </div>
-                </div>
+                </client-only>
             </template>
             <template #series="data">
                 <div style="width: 150px">
@@ -72,18 +80,24 @@
                 </div>
             </template>
             <template #status>
-                <span class="badge" :class="[randomStatusColor()]">{{ randomStatus() }}</span>
+                <client-only>
+                    <span class="badge" :class="[randomStatusColor()]">{{ randomStatus() }}</span>
+                </client-only>
             </template>
         </vue3-datatable>
     </div>
 </template>
+
 <script setup lang="ts">
-    import { ref, toRaw } from 'vue';
+    import { ref, toRaw, computed } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
-    import ApexChart from 'vue3-apexcharts';
-
-    onMounted(() => {
+    // import ApexChart from 'vue3-apexcharts';
+    let ApexChart: any = null;
+    onMounted(async () => {
+        if (import.meta.client) {
+            ApexChart = (await import('vue3-apexcharts')).default;
+        }
         getUsers();
     });
 
@@ -109,6 +123,10 @@
             { field: 'status', title: 'Status', sort: false },
         ]) || [];
 
+    onMounted(() => {
+        getUsers();
+    });
+
     const getUsers = async () => {
         try {
             loading.value = true;
@@ -127,6 +145,7 @@
 
         loading.value = false;
     };
+
     const changeServer = (data: any) => {
         params.current_page = data.current_page;
         params.pagesize = data.pagesize;
@@ -252,11 +271,13 @@
         const random = Math.floor(Math.random() * color.length);
         return color[random];
     };
+
     const randomStatus = () => {
         const status = ['PAID', 'APPROVED', 'FAILED', 'CANCEL', 'SUCCESS', 'PENDING', 'COMPLETE'];
         const random = Math.floor(Math.random() * status.length);
         return status[random];
     };
+
     const getRandomNumber = (min: number, max: number) => {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     };
@@ -266,6 +287,7 @@
         return countryList[random];
     };
 </script>
+
 <style>
     .advanced-table .progress-bar {
         width: 80%;
