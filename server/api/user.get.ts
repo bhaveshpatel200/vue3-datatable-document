@@ -34,7 +34,6 @@ export default defineEventHandler(async (event) => {
 
     params.column_filters?.forEach((d: any) => {
         if (d.field && d.value) {
-            // string filters
             if (d.condition === 'contain') {
                 rows = rows.filter((item: any) => {
                     return cellValue(item, d.field)?.toString().toLowerCase().includes(d.value.toLowerCase());
