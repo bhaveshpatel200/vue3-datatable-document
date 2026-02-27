@@ -27,7 +27,7 @@ export default defineEventHandler(async (event) => {
     };
 
     let result: any = [];
-    let rows: any = await $fetch(config.public.SITE_URL + '/data.json');
+    let rows: any = await $fetch(config.public.SITE_URL + '/data-new.json');
 
     let total = 0;
     const offset = (params.page - 1) * params.pagesize + 1;
