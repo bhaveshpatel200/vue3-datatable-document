@@ -23,7 +23,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 2.7,
         "status": "Rejected",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 2,
@@ -49,7 +50,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 1.7,
         "status": "Paid",
-        "progress": 19
+        "progress": 19,
+        "url": "https://www.google.com"
     },
     {
         "id": 3,
@@ -75,7 +77,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 3.4,
         "status": "Approved",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.google.com"
     },
     {
         "id": 4,
@@ -101,7 +104,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 2.1,
         "status": "Approved",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.google.com"
     },
     {
         "id": 5,
@@ -127,7 +131,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 4.6,
         "status": "Submitted",
-        "progress": 88
+        "progress": 88,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 6,
@@ -153,7 +158,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 1.8,
         "status": "Rejected",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 7,
@@ -177,9 +183,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Paid",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 8,
@@ -205,7 +212,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 1.2,
         "status": "Submitted",
-        "progress": 70
+        "progress": 70,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 9,
@@ -231,7 +239,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
         "rate": 4.1,
         "status": "Approved",
-        "progress": 48
+        "progress": 48,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 10,
@@ -257,7 +266,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 1.5,
         "status": "Approved",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 11,
@@ -283,7 +293,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 1.1,
         "status": "Submitted",
-        "progress": 70
+        "progress": 70,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 12,
@@ -309,7 +320,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 2.4,
         "status": "Submitted",
-        "progress": 5
+        "progress": 5,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 13,
@@ -335,7 +347,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
         "rate": 2.2,
         "status": "Approved",
-        "progress": 48
+        "progress": 48,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 14,
@@ -361,7 +374,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 4.4,
         "status": "Rejected",
-        "progress": 44
+        "progress": 44,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 15,
@@ -387,7 +401,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 3.3,
         "status": "Rejected",
-        "progress": 44
+        "progress": 44,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 16,
@@ -411,9 +426,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 74
+        "progress": 74,
+        "url": "https://www.google.com"
     },
     {
         "id": 17,
@@ -439,7 +455,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 2.7,
         "status": "Submitted",
-        "progress": 10
+        "progress": 10,
+        "url": "https://www.google.com"
     },
     {
         "id": 18,
@@ -465,7 +482,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 2.5,
         "status": "Paid",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 19,
@@ -489,9 +507,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.google.com"
     },
     {
         "id": 20,
@@ -517,7 +536,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 4.1,
         "status": "Paid",
-        "progress": 75
+        "progress": 75,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 21,
@@ -541,9 +561,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 22,
@@ -567,9 +588,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 17
+        "progress": 17,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 23,
@@ -593,9 +615,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 24,
@@ -619,9 +642,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 47
+        "progress": 47,
+        "url": "https://www.google.com"
     },
     {
         "id": 25,
@@ -647,7 +671,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 4.5,
         "status": "Paid",
-        "progress": 42
+        "progress": 42,
+        "url": "https://www.google.com"
     },
     {
         "id": 26,
@@ -673,7 +698,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
         "rate": 1.8,
         "status": "Submitted",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.google.com"
     },
     {
         "id": 27,
@@ -699,7 +725,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 3.2,
         "status": "Paid",
-        "progress": 64
+        "progress": 64,
+        "url": "https://www.google.com"
     },
     {
         "id": 28,
@@ -725,7 +752,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
         "rate": 4.4,
         "status": "Rejected",
-        "progress": 81
+        "progress": 81,
+        "url": "https://www.google.com"
     },
     {
         "id": 29,
@@ -749,9 +777,10 @@
         "country": "Egypt",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/EG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.google.com"
     },
     {
         "id": 30,
@@ -775,9 +804,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 31,
@@ -801,9 +831,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.google.com"
     },
     {
         "id": 32,
@@ -829,7 +860,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
         "rate": 2.2,
         "status": "Rejected",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 33,
@@ -855,7 +887,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
         "rate": 3.8,
         "status": "Paid",
-        "progress": 31
+        "progress": 31,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 34,
@@ -881,7 +914,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 4.6,
         "status": "Rejected",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.google.com"
     },
     {
         "id": 35,
@@ -905,9 +939,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 34
+        "progress": 34,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 36,
@@ -931,9 +966,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 82
+        "progress": 82,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 37,
@@ -959,7 +995,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 1.1,
         "status": "Paid",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 38,
@@ -985,7 +1022,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
         "rate": 3.9,
         "status": "Approved",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.google.com"
     },
     {
         "id": 39,
@@ -1009,9 +1047,10 @@
         "country": "Australia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AU.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 81
+        "progress": 81,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 40,
@@ -1035,9 +1074,10 @@
         "country": "South Korea",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/KR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 76
+        "progress": 76,
+        "url": "https://www.google.com"
     },
     {
         "id": 41,
@@ -1061,9 +1101,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 42,
@@ -1087,9 +1128,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 1
+        "progress": 1,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 43,
@@ -1113,9 +1155,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 77
+        "progress": 77,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 44,
@@ -1139,9 +1182,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 17
+        "progress": 17,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 45,
@@ -1165,9 +1209,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 46,
@@ -1193,7 +1238,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 3.4,
         "status": "Rejected",
-        "progress": 67
+        "progress": 67,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 47,
@@ -1219,7 +1265,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 1.9,
         "status": "Approved",
-        "progress": 19
+        "progress": 19,
+        "url": "https://www.google.com"
     },
     {
         "id": 48,
@@ -1245,7 +1292,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
         "rate": 3.5,
         "status": "Rejected",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 49,
@@ -1271,7 +1319,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
         "rate": 1.2,
         "status": "Submitted",
-        "progress": 24
+        "progress": 24,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 50,
@@ -1295,9 +1344,10 @@
         "country": "Chile",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 63
+        "progress": 63,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 51,
@@ -1321,9 +1371,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 95
+        "progress": 95,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 52,
@@ -1349,7 +1400,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
         "rate": 2.2,
         "status": "Submitted",
-        "progress": 25
+        "progress": 25,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 53,
@@ -1373,9 +1425,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 31
+        "progress": 31,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 54,
@@ -1399,9 +1452,10 @@
         "country": "United Kingdom",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/GB.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 92
+        "progress": 92,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 55,
@@ -1427,7 +1481,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 4.1,
         "status": "Rejected",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 56,
@@ -1453,7 +1508,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
         "rate": 4.7,
         "status": "Submitted",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 57,
@@ -1477,9 +1533,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 2
+        "progress": 2,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 58,
@@ -1503,9 +1560,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.google.com"
     },
     {
         "id": 59,
@@ -1529,9 +1587,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 26
+        "progress": 26,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 60,
@@ -1555,9 +1614,10 @@
         "country": "United Kingdom",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/GB.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 88
+        "progress": 88,
+        "url": "https://www.google.com"
     },
     {
         "id": 61,
@@ -1581,9 +1641,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 83
+        "progress": 83,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 62,
@@ -1609,7 +1670,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 4.5,
         "status": "Rejected",
-        "progress": 44
+        "progress": 44,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 63,
@@ -1635,7 +1697,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 2.6,
         "status": "Paid",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 64,
@@ -1661,7 +1724,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 2.2,
         "status": "Approved",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.google.com"
     },
     {
         "id": 65,
@@ -1687,7 +1751,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 3.3,
         "status": "Approved",
-        "progress": 74
+        "progress": 74,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 66,
@@ -1713,7 +1778,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 2.7,
         "status": "Rejected",
-        "progress": 65
+        "progress": 65,
+        "url": "https://www.google.com"
     },
     {
         "id": 67,
@@ -1739,7 +1805,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 2.1,
         "status": "Rejected",
-        "progress": 72
+        "progress": 72,
+        "url": "https://www.google.com"
     },
     {
         "id": 68,
@@ -1765,7 +1832,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
         "rate": 2.8,
         "status": "Rejected",
-        "progress": 31
+        "progress": 31,
+        "url": "https://www.google.com"
     },
     {
         "id": 69,
@@ -1789,9 +1857,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 77
+        "progress": 77,
+        "url": "https://www.google.com"
     },
     {
         "id": 70,
@@ -1817,7 +1886,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 4.5,
         "status": "Paid",
-        "progress": 11
+        "progress": 11,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 71,
@@ -1841,9 +1911,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Paid",
-        "progress": 22
+        "progress": 22,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 72,
@@ -1867,9 +1938,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.google.com"
     },
     {
         "id": 73,
@@ -1893,9 +1965,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 24
+        "progress": 24,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 74,
@@ -1921,7 +1994,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 4.8,
         "status": "Rejected",
-        "progress": 7
+        "progress": 7,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 75,
@@ -1945,9 +2019,10 @@
         "country": "Netherlands",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 88
+        "progress": 88,
+        "url": "https://www.google.com"
     },
     {
         "id": 76,
@@ -1973,7 +2048,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 4.5,
         "status": "Approved",
-        "progress": 70
+        "progress": 70,
+        "url": "https://www.google.com"
     },
     {
         "id": 77,
@@ -1997,9 +2073,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 82
+        "progress": 82,
+        "url": "https://www.google.com"
     },
     {
         "id": 78,
@@ -2025,7 +2102,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 1.6,
         "status": "Paid",
-        "progress": 63
+        "progress": 63,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 79,
@@ -2049,9 +2127,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 75
+        "progress": 75,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 80,
@@ -2075,9 +2154,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Paid",
-        "progress": 40
+        "progress": 40,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 81,
@@ -2103,7 +2183,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 1.7,
         "status": "Rejected",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 82,
@@ -2127,9 +2208,10 @@
         "country": "France",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 83
+        "progress": 83,
+        "url": "https://www.google.com"
     },
     {
         "id": 83,
@@ -2153,9 +2235,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 51
+        "progress": 51,
+        "url": "https://www.google.com"
     },
     {
         "id": 84,
@@ -2179,9 +2262,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 67
+        "progress": 67,
+        "url": "https://www.google.com"
     },
     {
         "id": 85,
@@ -2205,9 +2289,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 86,
@@ -2231,9 +2316,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Paid",
-        "progress": 22
+        "progress": 22,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 87,
@@ -2259,7 +2345,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 1.7,
         "status": "Rejected",
-        "progress": 74
+        "progress": 74,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 88,
@@ -2283,9 +2370,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Paid",
-        "progress": 26
+        "progress": 26,
+        "url": "https://www.google.com"
     },
     {
         "id": 89,
@@ -2309,9 +2397,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 90,
@@ -2337,7 +2426,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 2.3,
         "status": "Rejected",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.google.com"
     },
     {
         "id": 91,
@@ -2363,7 +2453,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 4.4,
         "status": "Approved",
-        "progress": 79
+        "progress": 79,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 92,
@@ -2387,9 +2478,10 @@
         "country": "Japan",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/JP.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 76
+        "progress": 76,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 93,
@@ -2415,7 +2507,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 2.3,
         "status": "Rejected",
-        "progress": 17
+        "progress": 17,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 94,
@@ -2439,9 +2532,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Submitted",
-        "progress": 39
+        "progress": 39,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 95,
@@ -2465,9 +2559,10 @@
         "country": "South Korea",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/KR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 96,
@@ -2493,7 +2588,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 2.7,
         "status": "Submitted",
-        "progress": 87
+        "progress": 87,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 97,
@@ -2517,9 +2613,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 17
+        "progress": 17,
+        "url": "https://www.google.com"
     },
     {
         "id": 98,
@@ -2543,9 +2640,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 99,
@@ -2571,7 +2669,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 4.3,
         "status": "Paid",
-        "progress": 30
+        "progress": 30,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 100,
@@ -2595,9 +2694,10 @@
         "country": "France",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 4
+        "progress": 4,
+        "url": "https://www.google.com"
     },
     {
         "id": 101,
@@ -2623,7 +2723,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 3.1,
         "status": "Rejected",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.google.com"
     },
     {
         "id": 102,
@@ -2647,9 +2748,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 34
+        "progress": 34,
+        "url": "https://www.google.com"
     },
     {
         "id": 103,
@@ -2673,9 +2775,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 104,
@@ -2701,7 +2804,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 4.6,
         "status": "Rejected",
-        "progress": 67
+        "progress": 67,
+        "url": "https://www.google.com"
     },
     {
         "id": 105,
@@ -2727,7 +2831,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 2.6,
         "status": "Rejected",
-        "progress": 43
+        "progress": 43,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 106,
@@ -2751,9 +2856,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 107,
@@ -2777,9 +2883,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 49
+        "progress": 49,
+        "url": "https://www.google.com"
     },
     {
         "id": 108,
@@ -2803,9 +2910,10 @@
         "country": "Japan",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/JP.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 8
+        "progress": 8,
+        "url": "https://www.google.com"
     },
     {
         "id": 109,
@@ -2831,7 +2939,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 4.6,
         "status": "Paid",
-        "progress": 27
+        "progress": 27,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 110,
@@ -2857,7 +2966,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
         "rate": 1.3,
         "status": "Approved",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 111,
@@ -2883,7 +2993,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
         "rate": 3.8,
         "status": "Approved",
-        "progress": 99
+        "progress": 99,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 112,
@@ -2907,9 +3018,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.google.com"
     },
     {
         "id": 113,
@@ -2933,9 +3045,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 114,
@@ -2961,7 +3074,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 3.6,
         "status": "Rejected",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 115,
@@ -2987,7 +3101,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 4.1,
         "status": "Rejected",
-        "progress": 65
+        "progress": 65,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 116,
@@ -3011,9 +3126,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Paid",
-        "progress": 42
+        "progress": 42,
+        "url": "https://www.google.com"
     },
     {
         "id": 117,
@@ -3037,9 +3153,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 118,
@@ -3063,9 +3180,10 @@
         "country": "Netherlands",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 75
+        "progress": 75,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 119,
@@ -3091,7 +3209,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
         "rate": 1.8,
         "status": "Approved",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 120,
@@ -3115,9 +3234,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 89
+        "progress": 89,
+        "url": "https://www.google.com"
     },
     {
         "id": 121,
@@ -3141,9 +3261,10 @@
         "country": "France",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 63
+        "progress": 63,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 122,
@@ -3167,9 +3288,10 @@
         "country": "Netherlands",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Paid",
-        "progress": 87
+        "progress": 87,
+        "url": "https://www.google.com"
     },
     {
         "id": 123,
@@ -3195,7 +3317,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
         "rate": 4.3,
         "status": "Rejected",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 124,
@@ -3219,9 +3342,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 14
+        "progress": 14,
+        "url": "https://www.google.com"
     },
     {
         "id": 125,
@@ -3245,9 +3369,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 126,
@@ -3271,9 +3396,10 @@
         "country": "Italy",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 127,
@@ -3297,9 +3423,10 @@
         "country": "Japan",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/JP.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Paid",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 128,
@@ -3323,9 +3450,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 129,
@@ -3349,9 +3477,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.google.com"
     },
     {
         "id": 130,
@@ -3375,9 +3504,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.google.com"
     },
     {
         "id": 131,
@@ -3401,9 +3531,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 11
+        "progress": 11,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 132,
@@ -3427,9 +3558,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 37
+        "progress": 37,
+        "url": "https://www.google.com"
     },
     {
         "id": 133,
@@ -3455,7 +3587,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 3.8,
         "status": "Approved",
-        "progress": 96
+        "progress": 96,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 134,
@@ -3479,9 +3612,10 @@
         "country": "Colombia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 9
+        "progress": 9,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 135,
@@ -3505,9 +3639,10 @@
         "country": "United Kingdom",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/GB.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 16
+        "progress": 16,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 136,
@@ -3531,9 +3666,10 @@
         "country": "Colombia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Paid",
-        "progress": 60
+        "progress": 60,
+        "url": "https://www.google.com"
     },
     {
         "id": 137,
@@ -3559,7 +3695,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 1.8,
         "status": "Submitted",
-        "progress": 37
+        "progress": 37,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 138,
@@ -3583,9 +3720,10 @@
         "country": "South Korea",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/KR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 11
+        "progress": 11,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 139,
@@ -3611,7 +3749,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 3.6,
         "status": "Approved",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 140,
@@ -3637,7 +3776,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
         "rate": 3.8,
         "status": "Submitted",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 141,
@@ -3663,7 +3803,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 1.9,
         "status": "Paid",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.google.com"
     },
     {
         "id": 142,
@@ -3687,9 +3828,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 78
+        "progress": 78,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 143,
@@ -3715,7 +3857,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 4.4,
         "status": "Rejected",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 144,
@@ -3741,7 +3884,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
         "rate": 3.3,
         "status": "Rejected",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.google.com"
     },
     {
         "id": 145,
@@ -3767,7 +3911,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 1.1,
         "status": "Rejected",
-        "progress": 56
+        "progress": 56,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 146,
@@ -3793,7 +3938,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 3.7,
         "status": "Paid",
-        "progress": 99
+        "progress": 99,
+        "url": "https://www.google.com"
     },
     {
         "id": 147,
@@ -3819,7 +3965,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 1.6,
         "status": "Rejected",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 148,
@@ -3845,7 +3992,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 4.9,
         "status": "Rejected",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 149,
@@ -3869,9 +4017,10 @@
         "country": "Japan",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/JP.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 3
+        "progress": 3,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 150,
@@ -3897,7 +4046,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 3.3,
         "status": "Approved",
-        "progress": 10
+        "progress": 10,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 151,
@@ -3921,9 +4071,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.google.com"
     },
     {
         "id": 152,
@@ -3949,7 +4100,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 2.6,
         "status": "Submitted",
-        "progress": 99
+        "progress": 99,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 153,
@@ -3973,9 +4125,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 71
+        "progress": 71,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 154,
@@ -4001,7 +4154,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 1.1,
         "status": "Approved",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.google.com"
     },
     {
         "id": 155,
@@ -4027,7 +4181,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 2.5,
         "status": "Approved",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 156,
@@ -4053,7 +4208,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
         "rate": 2.5,
         "status": "Paid",
-        "progress": 36
+        "progress": 36,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 157,
@@ -4079,7 +4235,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 2.4,
         "status": "Submitted",
-        "progress": 63
+        "progress": 63,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 158,
@@ -4103,9 +4260,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 88
+        "progress": 88,
+        "url": "https://www.google.com"
     },
     {
         "id": 159,
@@ -4131,7 +4289,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 2.8,
         "status": "Paid",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.google.com"
     },
     {
         "id": 160,
@@ -4155,9 +4314,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 9
+        "progress": 9,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 161,
@@ -4183,7 +4343,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 3.1,
         "status": "Submitted",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 162,
@@ -4209,7 +4370,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 1.6,
         "status": "Rejected",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 163,
@@ -4235,7 +4397,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 3.8,
         "status": "Paid",
-        "progress": 57
+        "progress": 57,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 164,
@@ -4259,9 +4422,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Submitted",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.google.com"
     },
     {
         "id": 165,
@@ -4285,9 +4449,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 48
+        "progress": 48,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 166,
@@ -4313,7 +4478,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 1.8,
         "status": "Rejected",
-        "progress": 90
+        "progress": 90,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 167,
@@ -4337,9 +4503,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 99
+        "progress": 99,
+        "url": "https://www.google.com"
     },
     {
         "id": 168,
@@ -4363,9 +4530,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 39
+        "progress": 39,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 169,
@@ -4391,7 +4559,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 3.8,
         "status": "Rejected",
-        "progress": 54
+        "progress": 54,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 170,
@@ -4415,9 +4584,10 @@
         "country": "United Kingdom",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/GB.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 58
+        "progress": 58,
+        "url": "https://www.google.com"
     },
     {
         "id": 171,
@@ -4443,7 +4613,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 2.1,
         "status": "Approved",
-        "progress": 72
+        "progress": 72,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 172,
@@ -4467,9 +4638,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 173,
@@ -4493,9 +4665,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.google.com"
     },
     {
         "id": 174,
@@ -4521,7 +4694,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 4.9,
         "status": "Rejected",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 175,
@@ -4545,9 +4719,10 @@
         "country": "Chile",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 87
+        "progress": 87,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 176,
@@ -4571,9 +4746,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 39
+        "progress": 39,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 177,
@@ -4597,9 +4773,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 58
+        "progress": 58,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 178,
@@ -4623,9 +4800,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 179,
@@ -4649,9 +4827,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 85
+        "progress": 85,
+        "url": "https://www.google.com"
     },
     {
         "id": 180,
@@ -4677,7 +4856,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 3.8,
         "status": "Approved",
-        "progress": 64
+        "progress": 64,
+        "url": "https://www.google.com"
     },
     {
         "id": 181,
@@ -4703,7 +4883,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 2.6,
         "status": "Rejected",
-        "progress": 57
+        "progress": 57,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 182,
@@ -4727,9 +4908,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 6
+        "progress": 6,
+        "url": "https://www.google.com"
     },
     {
         "id": 183,
@@ -4755,7 +4937,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 3.8,
         "status": "Paid",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 184,
@@ -4779,9 +4962,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 185,
@@ -4807,7 +4991,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 3.1,
         "status": "Submitted",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 186,
@@ -4831,9 +5016,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 73
+        "progress": 73,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 187,
@@ -4857,9 +5043,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 12
+        "progress": 12,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 188,
@@ -4883,9 +5070,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 17
+        "progress": 17,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 189,
@@ -4909,9 +5097,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 25
+        "progress": 25,
+        "url": "https://www.google.com"
     },
     {
         "id": 190,
@@ -4937,7 +5126,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
         "rate": 3.1,
         "status": "Rejected",
-        "progress": 92
+        "progress": 92,
+        "url": "https://www.google.com"
     },
     {
         "id": 191,
@@ -4961,9 +5151,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 60
+        "progress": 60,
+        "url": "https://www.google.com"
     },
     {
         "id": 192,
@@ -4989,7 +5180,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
         "rate": 1.9,
         "status": "Approved",
-        "progress": 71
+        "progress": 71,
+        "url": "https://www.google.com"
     },
     {
         "id": 193,
@@ -5015,7 +5207,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 1.7,
         "status": "Rejected",
-        "progress": 9
+        "progress": 9,
+        "url": "https://www.google.com"
     },
     {
         "id": 194,
@@ -5039,9 +5232,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 73
+        "progress": 73,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 195,
@@ -5067,7 +5261,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 3.8,
         "status": "Paid",
-        "progress": 90
+        "progress": 90,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 196,
@@ -5091,9 +5286,10 @@
         "country": "United Kingdom",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/GB.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 64
+        "progress": 64,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 197,
@@ -5119,7 +5315,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 3.7,
         "status": "Approved",
-        "progress": 44
+        "progress": 44,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 198,
@@ -5143,9 +5340,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 55
+        "progress": 55,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 199,
@@ -5169,9 +5367,10 @@
         "country": "Netherlands",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 8
+        "progress": 8,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 200,
@@ -5195,9 +5394,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.google.com"
     },
     {
         "id": 201,
@@ -5223,7 +5423,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 3.6,
         "status": "Submitted",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 202,
@@ -5247,9 +5448,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 16
+        "progress": 16,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 203,
@@ -5275,7 +5477,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 3.1,
         "status": "Paid",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 204,
@@ -5299,9 +5502,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Paid",
-        "progress": 38
+        "progress": 38,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 205,
@@ -5325,9 +5529,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 206,
@@ -5351,9 +5556,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 5
+        "progress": 5,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 207,
@@ -5379,7 +5585,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 3.3,
         "status": "Rejected",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 208,
@@ -5405,7 +5612,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
         "rate": 2.9,
         "status": "Rejected",
-        "progress": 74
+        "progress": 74,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 209,
@@ -5431,7 +5639,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 1.4,
         "status": "Submitted",
-        "progress": 16
+        "progress": 16,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 210,
@@ -5457,7 +5666,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 1.1,
         "status": "Rejected",
-        "progress": 85
+        "progress": 85,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 211,
@@ -5483,7 +5693,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 1.4,
         "status": "Rejected",
-        "progress": 82
+        "progress": 82,
+        "url": "https://www.google.com"
     },
     {
         "id": 212,
@@ -5507,9 +5718,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 48
+        "progress": 48,
+        "url": "https://www.google.com"
     },
     {
         "id": 213,
@@ -5535,7 +5747,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 1.7,
         "status": "Paid",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 214,
@@ -5561,7 +5774,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 4.5,
         "status": "Rejected",
-        "progress": 35
+        "progress": 35,
+        "url": "https://www.google.com"
     },
     {
         "id": 215,
@@ -5585,9 +5799,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 216,
@@ -5611,9 +5826,10 @@
         "country": "Chile",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 60
+        "progress": 60,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 217,
@@ -5637,9 +5853,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 96
+        "progress": 96,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 218,
@@ -5665,7 +5882,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 3.3,
         "status": "Rejected",
-        "progress": 23
+        "progress": 23,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 219,
@@ -5691,7 +5909,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 1.6,
         "status": "Submitted",
-        "progress": 35
+        "progress": 35,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 220,
@@ -5717,7 +5936,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
         "rate": 3.5,
         "status": "Approved",
-        "progress": 42
+        "progress": 42,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 221,
@@ -5743,7 +5963,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 3.3,
         "status": "Rejected",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.google.com"
     },
     {
         "id": 222,
@@ -5767,9 +5988,10 @@
         "country": "Netherlands",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 223,
@@ -5795,7 +6017,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
         "rate": 2.5,
         "status": "Rejected",
-        "progress": 49
+        "progress": 49,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 224,
@@ -5819,9 +6042,10 @@
         "country": "Colombia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 16
+        "progress": 16,
+        "url": "https://www.google.com"
     },
     {
         "id": 225,
@@ -5847,7 +6071,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 3.8,
         "status": "Rejected",
-        "progress": 43
+        "progress": 43,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 226,
@@ -5873,7 +6098,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
         "rate": 3.6,
         "status": "Rejected",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 227,
@@ -5899,7 +6125,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 1.3,
         "status": "Submitted",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.google.com"
     },
     {
         "id": 228,
@@ -5923,9 +6150,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 229,
@@ -5949,9 +6177,10 @@
         "country": "Italy",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Paid",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.google.com"
     },
     {
         "id": 230,
@@ -5975,9 +6204,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 85
+        "progress": 85,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 231,
@@ -6001,9 +6231,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Paid",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 232,
@@ -6029,7 +6260,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 3.3,
         "status": "Submitted",
-        "progress": 27
+        "progress": 27,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 233,
@@ -6053,9 +6285,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 56
+        "progress": 56,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 234,
@@ -6081,7 +6314,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
         "rate": 2.1,
         "status": "Rejected",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.google.com"
     },
     {
         "id": 235,
@@ -6107,7 +6341,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 2.9,
         "status": "Rejected",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 236,
@@ -6133,7 +6368,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 1.4,
         "status": "Approved",
-        "progress": 27
+        "progress": 27,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 237,
@@ -6157,9 +6393,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.google.com"
     },
     {
         "id": 238,
@@ -6183,9 +6420,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.google.com"
     },
     {
         "id": 239,
@@ -6209,9 +6447,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 49
+        "progress": 49,
+        "url": "https://www.google.com"
     },
     {
         "id": 240,
@@ -6237,7 +6476,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 2.7,
         "status": "Rejected",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.google.com"
     },
     {
         "id": 241,
@@ -6261,9 +6501,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.google.com"
     },
     {
         "id": 242,
@@ -6287,9 +6528,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 243,
@@ -6313,9 +6555,10 @@
         "country": "Colombia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 81
+        "progress": 81,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 244,
@@ -6341,7 +6584,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 3.5,
         "status": "Approved",
-        "progress": 2
+        "progress": 2,
+        "url": "https://www.google.com"
     },
     {
         "id": 245,
@@ -6365,9 +6609,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 99
+        "progress": 99,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 246,
@@ -6393,7 +6638,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 2.1,
         "status": "Submitted",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 247,
@@ -6417,9 +6663,10 @@
         "country": "France",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 25
+        "progress": 25,
+        "url": "https://www.google.com"
     },
     {
         "id": 248,
@@ -6445,7 +6692,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
         "rate": 3.6,
         "status": "Paid",
-        "progress": 19
+        "progress": 19,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 249,
@@ -6471,7 +6719,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 4.1,
         "status": "Submitted",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.google.com"
     },
     {
         "id": 250,
@@ -6495,9 +6744,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 47
+        "progress": 47,
+        "url": "https://www.google.com"
     },
     {
         "id": 251,
@@ -6521,9 +6771,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 56
+        "progress": 56,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 252,
@@ -6549,7 +6800,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
         "rate": 2.5,
         "status": "Paid",
-        "progress": 11
+        "progress": 11,
+        "url": "https://www.google.com"
     },
     {
         "id": 253,
@@ -6573,9 +6825,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 35
+        "progress": 35,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 254,
@@ -6599,9 +6852,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 255,
@@ -6625,9 +6879,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 51
+        "progress": 51,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 256,
@@ -6651,9 +6906,10 @@
         "country": "Australia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AU.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Paid",
-        "progress": 62
+        "progress": 62,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 257,
@@ -6679,7 +6935,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
         "rate": 3.7,
         "status": "Approved",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.google.com"
     },
     {
         "id": 258,
@@ -6703,9 +6960,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Paid",
-        "progress": 76
+        "progress": 76,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 259,
@@ -6729,9 +6987,10 @@
         "country": "Egypt",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/EG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 2
+        "progress": 2,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 260,
@@ -6755,9 +7014,10 @@
         "country": "Italy",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Paid",
-        "progress": 29
+        "progress": 29,
+        "url": "https://www.google.com"
     },
     {
         "id": 261,
@@ -6783,7 +7043,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 1.3,
         "status": "Rejected",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 262,
@@ -6809,7 +7070,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
         "rate": 4.3,
         "status": "Submitted",
-        "progress": 5
+        "progress": 5,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 263,
@@ -6835,7 +7097,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
         "rate": 2.1,
         "status": "Paid",
-        "progress": 96
+        "progress": 96,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 264,
@@ -6861,7 +7124,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 3.5,
         "status": "Approved",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.google.com"
     },
     {
         "id": 265,
@@ -6887,7 +7151,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 4.7,
         "status": "Paid",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 266,
@@ -6911,9 +7176,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.google.com"
     },
     {
         "id": 267,
@@ -6939,7 +7205,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 2.7,
         "status": "Submitted",
-        "progress": 29
+        "progress": 29,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 268,
@@ -6963,9 +7230,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 89
+        "progress": 89,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 269,
@@ -6989,9 +7257,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Submitted",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.google.com"
     },
     {
         "id": 270,
@@ -7015,9 +7284,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 24
+        "progress": 24,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 271,
@@ -7041,9 +7311,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 60
+        "progress": 60,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 272,
@@ -7069,7 +7340,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
         "rate": 3.7,
         "status": "Submitted",
-        "progress": 73
+        "progress": 73,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 273,
@@ -7093,9 +7365,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 49
+        "progress": 49,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 274,
@@ -7119,9 +7392,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 60
+        "progress": 60,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 275,
@@ -7145,9 +7419,10 @@
         "country": "Australia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AU.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 75
+        "progress": 75,
+        "url": "https://www.google.com"
     },
     {
         "id": 276,
@@ -7171,9 +7446,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 30
+        "progress": 30,
+        "url": "https://www.google.com"
     },
     {
         "id": 277,
@@ -7197,9 +7473,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 278,
@@ -7223,9 +7500,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 279,
@@ -7249,9 +7527,10 @@
         "country": "Colombia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 90
+        "progress": 90,
+        "url": "https://www.google.com"
     },
     {
         "id": 280,
@@ -7277,7 +7556,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 3.6,
         "status": "Rejected",
-        "progress": 54
+        "progress": 54,
+        "url": "https://www.google.com"
     },
     {
         "id": 281,
@@ -7303,7 +7583,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 3.2,
         "status": "Rejected",
-        "progress": 65
+        "progress": 65,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 282,
@@ -7329,7 +7610,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 2.9,
         "status": "Paid",
-        "progress": 74
+        "progress": 74,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 283,
@@ -7353,9 +7635,10 @@
         "country": "Australia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AU.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 8
+        "progress": 8,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 284,
@@ -7381,7 +7664,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
         "rate": 4.9,
         "status": "Approved",
-        "progress": 79
+        "progress": 79,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 285,
@@ -7405,9 +7689,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 1
+        "progress": 1,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 286,
@@ -7433,7 +7718,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 2.2,
         "status": "Submitted",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.google.com"
     },
     {
         "id": 287,
@@ -7459,7 +7745,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 1.5,
         "status": "Submitted",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 288,
@@ -7483,9 +7770,10 @@
         "country": "South Korea",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/KR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 76
+        "progress": 76,
+        "url": "https://www.google.com"
     },
     {
         "id": 289,
@@ -7509,9 +7797,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Paid",
-        "progress": 6
+        "progress": 6,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 290,
@@ -7537,7 +7826,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 1.1,
         "status": "Approved",
-        "progress": 20
+        "progress": 20,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 291,
@@ -7561,9 +7851,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 292,
@@ -7587,9 +7878,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 27
+        "progress": 27,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 293,
@@ -7613,9 +7905,10 @@
         "country": "Chile",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 22
+        "progress": 22,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 294,
@@ -7639,9 +7932,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 6
+        "progress": 6,
+        "url": "https://www.google.com"
     },
     {
         "id": 295,
@@ -7667,7 +7961,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 1.6,
         "status": "Submitted",
-        "progress": 62
+        "progress": 62,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 296,
@@ -7691,9 +7986,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 55
+        "progress": 55,
+        "url": "https://www.google.com"
     },
     {
         "id": 297,
@@ -7717,9 +8013,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 298,
@@ -7743,9 +8040,10 @@
         "country": "South Korea",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/KR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.google.com"
     },
     {
         "id": 299,
@@ -7769,9 +8067,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 76
+        "progress": 76,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 300,
@@ -7795,9 +8094,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 301,
@@ -7821,9 +8121,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Paid",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 302,
@@ -7847,9 +8148,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 51
+        "progress": 51,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 303,
@@ -7873,9 +8175,10 @@
         "country": "Japan",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/JP.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 37
+        "progress": 37,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 304,
@@ -7899,9 +8202,10 @@
         "country": "Egypt",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/EG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 34
+        "progress": 34,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 305,
@@ -7927,7 +8231,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 3.1,
         "status": "Submitted",
-        "progress": 12
+        "progress": 12,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 306,
@@ -7951,9 +8256,10 @@
         "country": "South Africa",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ZA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 36
+        "progress": 36,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 307,
@@ -7977,9 +8283,10 @@
         "country": "Egypt",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/EG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.google.com"
     },
     {
         "id": 308,
@@ -8005,7 +8312,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
         "rate": 4.3,
         "status": "Rejected",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 309,
@@ -8029,9 +8337,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 93
+        "progress": 93,
+        "url": "https://www.google.com"
     },
     {
         "id": 310,
@@ -8057,7 +8366,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
         "rate": 3.3,
         "status": "Rejected",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 311,
@@ -8081,9 +8391,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.google.com"
     },
     {
         "id": 312,
@@ -8109,7 +8420,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 3.6,
         "status": "Rejected",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.google.com"
     },
     {
         "id": 313,
@@ -8133,9 +8445,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 314,
@@ -8159,9 +8472,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 315,
@@ -8187,7 +8501,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 2.9,
         "status": "Submitted",
-        "progress": 99
+        "progress": 99,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 316,
@@ -8211,9 +8526,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Submitted",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 317,
@@ -8237,9 +8553,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 11
+        "progress": 11,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 318,
@@ -8263,9 +8580,10 @@
         "country": "Italy",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 55
+        "progress": 55,
+        "url": "https://www.google.com"
     },
     {
         "id": 319,
@@ -8291,7 +8609,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 3.4,
         "status": "Rejected",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.google.com"
     },
     {
         "id": 320,
@@ -8317,7 +8636,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
         "rate": 2.7,
         "status": "Submitted",
-        "progress": 81
+        "progress": 81,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 321,
@@ -8343,7 +8663,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 3.4,
         "status": "Submitted",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 322,
@@ -8367,9 +8688,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 323,
@@ -8393,9 +8715,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 36
+        "progress": 36,
+        "url": "https://www.google.com"
     },
     {
         "id": 324,
@@ -8421,7 +8744,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 1.8,
         "status": "Submitted",
-        "progress": 63
+        "progress": 63,
+        "url": "https://www.google.com"
     },
     {
         "id": 325,
@@ -8447,7 +8771,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
         "rate": 2.9,
         "status": "Rejected",
-        "progress": 11
+        "progress": 11,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 326,
@@ -8473,7 +8798,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 1.3,
         "status": "Paid",
-        "progress": 87
+        "progress": 87,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 327,
@@ -8497,9 +8823,10 @@
         "country": "Netherlands",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.google.com"
     },
     {
         "id": 328,
@@ -8523,9 +8850,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 58
+        "progress": 58,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 329,
@@ -8549,9 +8877,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 49
+        "progress": 49,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 330,
@@ -8575,9 +8904,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Paid",
-        "progress": 58
+        "progress": 58,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 331,
@@ -8601,9 +8931,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 46
+        "progress": 46,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 332,
@@ -8627,9 +8958,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 65
+        "progress": 65,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 333,
@@ -8655,7 +8987,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 2.9,
         "status": "Approved",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 334,
@@ -8681,7 +9014,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
         "rate": 3.8,
         "status": "Rejected",
-        "progress": 29
+        "progress": 29,
+        "url": "https://www.google.com"
     },
     {
         "id": 335,
@@ -8707,7 +9041,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 3.9,
         "status": "Submitted",
-        "progress": 42
+        "progress": 42,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 336,
@@ -8731,9 +9066,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 337,
@@ -8757,9 +9093,10 @@
         "country": "Australia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AU.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.google.com"
     },
     {
         "id": 338,
@@ -8785,7 +9122,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
         "rate": 3.1,
         "status": "Submitted",
-        "progress": 54
+        "progress": 54,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 339,
@@ -8811,7 +9149,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 4.7,
         "status": "Approved",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 340,
@@ -8835,9 +9174,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Paid",
-        "progress": 79
+        "progress": 79,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 341,
@@ -8863,7 +9203,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
         "rate": 4.7,
         "status": "Approved",
-        "progress": 35
+        "progress": 35,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 342,
@@ -8889,7 +9230,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 1.8,
         "status": "Rejected",
-        "progress": 39
+        "progress": 39,
+        "url": "https://www.google.com"
     },
     {
         "id": 343,
@@ -8913,9 +9255,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 344,
@@ -8939,9 +9282,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Paid",
-        "progress": 40
+        "progress": 40,
+        "url": "https://www.google.com"
     },
     {
         "id": 345,
@@ -8967,7 +9311,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 1.5,
         "status": "Submitted",
-        "progress": 92
+        "progress": 92,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 346,
@@ -8991,9 +9336,10 @@
         "country": "Australia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AU.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.google.com"
     },
     {
         "id": 347,
@@ -9019,7 +9365,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 1.9,
         "status": "Submitted",
-        "progress": 74
+        "progress": 74,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 348,
@@ -9045,7 +9392,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 2.7,
         "status": "Submitted",
-        "progress": 90
+        "progress": 90,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 349,
@@ -9069,9 +9417,10 @@
         "country": "South Africa",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ZA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.google.com"
     },
     {
         "id": 350,
@@ -9095,9 +9444,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 351,
@@ -9123,7 +9473,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 2.7,
         "status": "Paid",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.google.com"
     },
     {
         "id": 352,
@@ -9147,9 +9498,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 353,
@@ -9173,9 +9525,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 54
+        "progress": 54,
+        "url": "https://www.google.com"
     },
     {
         "id": 354,
@@ -9199,9 +9552,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Paid",
-        "progress": 44
+        "progress": 44,
+        "url": "https://www.google.com"
     },
     {
         "id": 355,
@@ -9225,9 +9579,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 356,
@@ -9253,7 +9608,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 4.5,
         "status": "Rejected",
-        "progress": 6
+        "progress": 6,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 357,
@@ -9277,9 +9633,10 @@
         "country": "Egypt",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/EG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 90
+        "progress": 90,
+        "url": "https://www.google.com"
     },
     {
         "id": 358,
@@ -9305,7 +9662,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 2.7,
         "status": "Submitted",
-        "progress": 2
+        "progress": 2,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 359,
@@ -9331,7 +9689,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
         "rate": 1.9,
         "status": "Submitted",
-        "progress": 12
+        "progress": 12,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 360,
@@ -9355,9 +9714,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Paid",
-        "progress": 26
+        "progress": 26,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 361,
@@ -9381,9 +9741,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 60
+        "progress": 60,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 362,
@@ -9407,9 +9768,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.google.com"
     },
     {
         "id": 363,
@@ -9433,9 +9795,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.google.com"
     },
     {
         "id": 364,
@@ -9461,7 +9824,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 3.2,
         "status": "Rejected",
-        "progress": 29
+        "progress": 29,
+        "url": "https://www.google.com"
     },
     {
         "id": 365,
@@ -9485,9 +9849,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.google.com"
     },
     {
         "id": 366,
@@ -9511,9 +9876,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 20
+        "progress": 20,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 367,
@@ -9537,9 +9903,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 42
+        "progress": 42,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 368,
@@ -9565,7 +9932,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
         "rate": 3.1,
         "status": "Submitted",
-        "progress": 58
+        "progress": 58,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 369,
@@ -9591,7 +9959,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
         "rate": 1.1,
         "status": "Rejected",
-        "progress": 28
+        "progress": 28,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 370,
@@ -9615,9 +9984,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 36
+        "progress": 36,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 371,
@@ -9643,7 +10013,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 1.4,
         "status": "Rejected",
-        "progress": 28
+        "progress": 28,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 372,
@@ -9667,9 +10038,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Submitted",
-        "progress": 31
+        "progress": 31,
+        "url": "https://www.google.com"
     },
     {
         "id": 373,
@@ -9693,9 +10065,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 27
+        "progress": 27,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 374,
@@ -9719,9 +10092,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.google.com"
     },
     {
         "id": 375,
@@ -9747,7 +10121,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 2.3,
         "status": "Rejected",
-        "progress": 1
+        "progress": 1,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 376,
@@ -9773,7 +10148,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 1.8,
         "status": "Approved",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 377,
@@ -9797,9 +10173,10 @@
         "country": "South Africa",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ZA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 58
+        "progress": 58,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 378,
@@ -9823,9 +10200,10 @@
         "country": "Argentina",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 7
+        "progress": 7,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 379,
@@ -9851,7 +10229,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 4.5,
         "status": "Rejected",
-        "progress": 63
+        "progress": 63,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 380,
@@ -9877,7 +10256,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 3.9,
         "status": "Approved",
-        "progress": 79
+        "progress": 79,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 381,
@@ -9903,7 +10283,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
         "rate": 4.4,
         "status": "Rejected",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 382,
@@ -9927,9 +10308,10 @@
         "country": "Netherlands",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 35
+        "progress": 35,
+        "url": "https://www.google.com"
     },
     {
         "id": 383,
@@ -9955,7 +10337,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 2.5,
         "status": "Approved",
-        "progress": 70
+        "progress": 70,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 384,
@@ -9979,9 +10362,10 @@
         "country": "Italy",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-19.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 8
+        "progress": 8,
+        "url": "https://www.google.com"
     },
     {
         "id": 385,
@@ -10005,9 +10389,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 40
+        "progress": 40,
+        "url": "https://www.google.com"
     },
     {
         "id": 386,
@@ -10031,9 +10416,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 72
+        "progress": 72,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 387,
@@ -10057,9 +10443,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Paid",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 388,
@@ -10085,7 +10472,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 2.5,
         "status": "Rejected",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 389,
@@ -10111,7 +10499,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 4.4,
         "status": "Paid",
-        "progress": 37
+        "progress": 37,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 390,
@@ -10137,7 +10526,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
         "rate": 3.8,
         "status": "Submitted",
-        "progress": 52
+        "progress": 52,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 391,
@@ -10163,7 +10553,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 3.7,
         "status": "Approved",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 392,
@@ -10187,9 +10578,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Submitted",
-        "progress": 19
+        "progress": 19,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 393,
@@ -10215,7 +10607,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
         "rate": 2.6,
         "status": "Rejected",
-        "progress": 23
+        "progress": 23,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 394,
@@ -10239,9 +10632,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 13
+        "progress": 13,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 395,
@@ -10267,7 +10661,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 4.9,
         "status": "Submitted",
-        "progress": 23
+        "progress": 23,
+        "url": "https://www.google.com"
     },
     {
         "id": 396,
@@ -10291,9 +10686,10 @@
         "country": "South Korea",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/KR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.google.com"
     },
     {
         "id": 397,
@@ -10319,7 +10715,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
         "rate": 3.2,
         "status": "Approved",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.google.com"
     },
     {
         "id": 398,
@@ -10343,9 +10740,10 @@
         "country": "Australia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AU.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 87
+        "progress": 87,
+        "url": "https://www.google.com"
     },
     {
         "id": 399,
@@ -10369,9 +10767,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 70
+        "progress": 70,
+        "url": "https://www.google.com"
     },
     {
         "id": 400,
@@ -10397,7 +10796,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 3.8,
         "status": "Approved",
-        "progress": 44
+        "progress": 44,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 401,
@@ -10423,7 +10823,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 1.2,
         "status": "Rejected",
-        "progress": 65
+        "progress": 65,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 402,
@@ -10449,7 +10850,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
         "rate": 4.2,
         "status": "Rejected",
-        "progress": 56
+        "progress": 56,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 403,
@@ -10473,9 +10875,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 30
+        "progress": 30,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 404,
@@ -10499,9 +10902,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 4
+        "progress": 4,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 405,
@@ -10525,9 +10929,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 4
+        "progress": 4,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 406,
@@ -10553,7 +10958,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-1.jpeg",
         "rate": 1.7,
         "status": "Rejected",
-        "progress": 12
+        "progress": 12,
+        "url": "https://www.google.com"
     },
     {
         "id": 407,
@@ -10577,9 +10983,10 @@
         "country": "Chile",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.google.com"
     },
     {
         "id": 408,
@@ -10603,9 +11010,10 @@
         "country": "Spain",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ES.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 409,
@@ -10629,9 +11037,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 410,
@@ -10655,9 +11064,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Paid",
-        "progress": 72
+        "progress": 72,
+        "url": "https://www.google.com"
     },
     {
         "id": 411,
@@ -10683,7 +11093,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
         "rate": 2.2,
         "status": "Approved",
-        "progress": 29
+        "progress": 29,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 412,
@@ -10707,9 +11118,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 63
+        "progress": 63,
+        "url": "https://www.google.com"
     },
     {
         "id": 413,
@@ -10735,7 +11147,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 1.6,
         "status": "Rejected",
-        "progress": 70
+        "progress": 70,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 414,
@@ -10759,9 +11172,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 2
+        "progress": 2,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 415,
@@ -10785,9 +11199,10 @@
         "country": "Canada",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-4.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.google.com"
     },
     {
         "id": 416,
@@ -10813,7 +11228,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 4.1,
         "status": "Approved",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.google.com"
     },
     {
         "id": 417,
@@ -10837,9 +11253,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 418,
@@ -10863,9 +11280,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 419,
@@ -10889,9 +11307,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 24
+        "progress": 24,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 420,
@@ -10915,9 +11334,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-7.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 421,
@@ -10943,7 +11363,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 2.5,
         "status": "Submitted",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 422,
@@ -10967,9 +11388,10 @@
         "country": "Italy",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Submitted",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 423,
@@ -10993,9 +11415,10 @@
         "country": "France",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 57
+        "progress": 57,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 424,
@@ -11021,7 +11444,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 3.3,
         "status": "Rejected",
-        "progress": 19
+        "progress": 19,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 425,
@@ -11045,9 +11469,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 7
+        "progress": 7,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 426,
@@ -11073,7 +11498,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 1.6,
         "status": "Submitted",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.google.com"
     },
     {
         "id": 427,
@@ -11097,9 +11523,10 @@
         "country": "China",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 13
+        "progress": 13,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 428,
@@ -11125,7 +11552,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 4.7,
         "status": "Rejected",
-        "progress": 17
+        "progress": 17,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 429,
@@ -11149,9 +11577,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 72
+        "progress": 72,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 430,
@@ -11177,7 +11606,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 1.4,
         "status": "Rejected",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.google.com"
     },
     {
         "id": 431,
@@ -11203,7 +11633,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
         "rate": 4.6,
         "status": "Approved",
-        "progress": 48
+        "progress": 48,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 432,
@@ -11229,7 +11660,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 2.3,
         "status": "Paid",
-        "progress": 81
+        "progress": 81,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 433,
@@ -11253,9 +11685,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Rejected",
-        "progress": 58
+        "progress": 58,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 434,
@@ -11281,7 +11714,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
         "rate": 2.1,
         "status": "Rejected",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 435,
@@ -11305,9 +11739,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 436,
@@ -11333,7 +11768,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 3.7,
         "status": "Approved",
-        "progress": 85
+        "progress": 85,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 437,
@@ -11357,9 +11793,10 @@
         "country": "Germany",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 53
+        "progress": 53,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 438,
@@ -11383,9 +11820,10 @@
         "country": "Japan",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/JP.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 40
+        "progress": 40,
+        "url": "https://www.google.com"
     },
     {
         "id": 439,
@@ -11411,7 +11849,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
         "rate": 3.9,
         "status": "Rejected",
-        "progress": 49
+        "progress": 49,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 440,
@@ -11437,7 +11876,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 2.7,
         "status": "Rejected",
-        "progress": 78
+        "progress": 78,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 441,
@@ -11463,7 +11903,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 1.5,
         "status": "Rejected",
-        "progress": 31
+        "progress": 31,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 442,
@@ -11489,7 +11930,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
         "rate": 4.2,
         "status": "Submitted",
-        "progress": 2
+        "progress": 2,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 443,
@@ -11513,9 +11955,10 @@
         "country": "Japan",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/JP.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 444,
@@ -11541,7 +11984,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 4.1,
         "status": "Approved",
-        "progress": 33
+        "progress": 33,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 445,
@@ -11565,9 +12009,10 @@
         "country": "Egypt",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/EG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 11
+        "progress": 11,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 446,
@@ -11593,7 +12038,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
         "rate": 1.6,
         "status": "Rejected",
-        "progress": 21
+        "progress": 21,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 447,
@@ -11617,9 +12063,10 @@
         "country": "India",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IN.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Paid",
-        "progress": 59
+        "progress": 59,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 448,
@@ -11643,9 +12090,10 @@
         "country": "United States",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/US.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Paid",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 449,
@@ -11669,9 +12117,10 @@
         "country": "Norway",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/NO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 1
+        "progress": 1,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 450,
@@ -11697,7 +12146,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
         "rate": 3.7,
         "status": "Paid",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 451,
@@ -11721,9 +12171,10 @@
         "country": "South Africa",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/ZA.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-3.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Rejected",
-        "progress": 54
+        "progress": 54,
+        "url": "https://www.google.com"
     },
     {
         "id": 452,
@@ -11747,9 +12198,10 @@
         "country": "Belgium",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Rejected",
-        "progress": 56
+        "progress": 56,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 453,
@@ -11775,7 +12227,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 1.5,
         "status": "Rejected",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.google.com"
     },
     {
         "id": 454,
@@ -11801,7 +12254,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 4.3,
         "status": "Rejected",
-        "progress": 92
+        "progress": 92,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 455,
@@ -11827,7 +12281,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 1.6,
         "status": "Submitted",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.google.com"
     },
     {
         "id": 456,
@@ -11851,9 +12306,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 457,
@@ -11879,7 +12335,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-22.jpeg",
         "rate": 4.7,
         "status": "Rejected",
-        "progress": 56
+        "progress": 56,
+        "url": "https://www.google.com"
     },
     {
         "id": 458,
@@ -11903,9 +12360,10 @@
         "country": "Italy",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/IT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 54
+        "progress": 54,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 459,
@@ -11929,9 +12387,10 @@
         "country": "Sweden",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SE.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 26
+        "progress": 26,
+        "url": "https://www.google.com"
     },
     {
         "id": 460,
@@ -11955,9 +12414,10 @@
         "country": "Chile",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 461,
@@ -11983,7 +12443,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-25.jpeg",
         "rate": 3.3,
         "status": "Approved",
-        "progress": 50
+        "progress": 50,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 462,
@@ -12007,9 +12468,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Submitted",
-        "progress": 27
+        "progress": 27,
+        "url": "https://www.google.com"
     },
     {
         "id": 463,
@@ -12035,7 +12497,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 3.8,
         "status": "Rejected",
-        "progress": 46
+        "progress": 46,
+        "url": "https://www.google.com"
     },
     {
         "id": 464,
@@ -12061,7 +12524,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 1.4,
         "status": "Rejected",
-        "progress": 41
+        "progress": 41,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 465,
@@ -12085,9 +12549,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 15
+        "progress": 15,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 466,
@@ -12113,7 +12578,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-26.jpeg",
         "rate": 1.3,
         "status": "Rejected",
-        "progress": 74
+        "progress": 74,
+        "url": "https://www.google.com"
     },
     {
         "id": 467,
@@ -12139,7 +12605,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
         "rate": 4.3,
         "status": "Approved",
-        "progress": 90
+        "progress": 90,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 468,
@@ -12165,7 +12632,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 3.7,
         "status": "Rejected",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 469,
@@ -12191,7 +12659,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-8.jpeg",
         "rate": 1.8,
         "status": "Paid",
-        "progress": 86
+        "progress": 86,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 470,
@@ -12217,7 +12686,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-16.jpeg",
         "rate": 4.3,
         "status": "Rejected",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.google.com"
     },
     {
         "id": 471,
@@ -12241,9 +12711,10 @@
         "country": "Turkey",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/TR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 23
+        "progress": 23,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 472,
@@ -12269,7 +12740,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
         "rate": 2.8,
         "status": "Rejected",
-        "progress": 45
+        "progress": 45,
+        "url": "https://www.google.com"
     },
     {
         "id": 473,
@@ -12295,7 +12767,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
         "rate": 2.7,
         "status": "Rejected",
-        "progress": 100
+        "progress": 100,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 474,
@@ -12321,7 +12794,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-2.jpeg",
         "rate": 2.9,
         "status": "Rejected",
-        "progress": 76
+        "progress": 76,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 475,
@@ -12345,9 +12819,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Rejected",
-        "progress": 98
+        "progress": 98,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 476,
@@ -12371,9 +12846,10 @@
         "country": "Singapore",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/SG.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-30.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Approved",
-        "progress": 66
+        "progress": 66,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 477,
@@ -12397,9 +12873,10 @@
         "country": "Switzerland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CH.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Approved",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 478,
@@ -12423,9 +12900,10 @@
         "country": "France",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-11.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Approved",
-        "progress": 51
+        "progress": 51,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 479,
@@ -12451,7 +12929,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
         "rate": 3.5,
         "status": "Submitted",
-        "progress": 61
+        "progress": 61,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 480,
@@ -12475,9 +12954,10 @@
         "country": "United Kingdom",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/GB.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Paid",
-        "progress": 71
+        "progress": 71,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 481,
@@ -12503,7 +12983,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-5.jpeg",
         "rate": 3.2,
         "status": "Rejected",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 482,
@@ -12529,7 +13010,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-27.jpeg",
         "rate": 1.7,
         "status": "Submitted",
-        "progress": 87
+        "progress": 87,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 483,
@@ -12555,7 +13037,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-10.jpeg",
         "rate": 4.1,
         "status": "Rejected",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.google.com"
     },
     {
         "id": 484,
@@ -12581,7 +13064,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-17.jpeg",
         "rate": 2.7,
         "status": "Rejected",
-        "progress": 94
+        "progress": 94,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 485,
@@ -12607,7 +13091,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 3.3,
         "status": "Submitted",
-        "progress": 88
+        "progress": 88,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 486,
@@ -12631,9 +13116,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Paid",
-        "progress": 68
+        "progress": 68,
+        "url": "https://www.google.com"
     },
     {
         "id": 487,
@@ -12657,9 +13143,10 @@
         "country": "Mexico",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/MX.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-12.jpeg",
-        "rate": 4.0,
+        "rate": 4,
         "status": "Paid",
-        "progress": 91
+        "progress": 91,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 488,
@@ -12685,7 +13172,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-13.jpeg",
         "rate": 4.4,
         "status": "Approved",
-        "progress": 61
+        "progress": 61,
+        "url": "https://www.google.com"
     },
     {
         "id": 489,
@@ -12709,9 +13197,10 @@
         "country": "Austria",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/AT.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-21.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Submitted",
-        "progress": 97
+        "progress": 97,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 490,
@@ -12737,7 +13226,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-14.jpeg",
         "rate": 4.5,
         "status": "Paid",
-        "progress": 87
+        "progress": 87,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 491,
@@ -12763,7 +13253,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-18.jpeg",
         "rate": 4.6,
         "status": "Paid",
-        "progress": 4
+        "progress": 4,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 492,
@@ -12787,9 +13278,10 @@
         "country": "Denmark",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/DK.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-28.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Approved",
-        "progress": 36
+        "progress": 36,
+        "url": "https://www.google.com"
     },
     {
         "id": 493,
@@ -12813,9 +13305,10 @@
         "country": "United Kingdom",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/GB.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-9.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Rejected",
-        "progress": 34
+        "progress": 34,
+        "url": "https://www.google.com"
     },
     {
         "id": 494,
@@ -12839,9 +13332,10 @@
         "country": "Finland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/FI.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-29.jpeg",
-        "rate": 3.0,
+        "rate": 3,
         "status": "Submitted",
-        "progress": 80
+        "progress": 80,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 495,
@@ -12865,9 +13359,10 @@
         "country": "Colombia",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/CO.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-6.jpeg",
-        "rate": 5.0,
+        "rate": 5,
         "status": "Approved",
-        "progress": 18
+        "progress": 18,
+        "url": "https://www.google.com"
     },
     {
         "id": 496,
@@ -12891,9 +13386,10 @@
         "country": "Brazil",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/BR.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
-        "rate": 1.0,
+        "rate": 1,
         "status": "Submitted",
-        "progress": 84
+        "progress": 84,
+        "url": "https://www.yahoo.com"
     },
     {
         "id": 497,
@@ -12919,7 +13415,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-23.jpeg",
         "rate": 3.9,
         "status": "Submitted",
-        "progress": 82
+        "progress": 82,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 498,
@@ -12943,9 +13440,10 @@
         "country": "Poland",
         "country_image": "https://vue3-datatable-document.vercel.app/assets/images/flags/PL.svg",
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-15.jpeg",
-        "rate": 2.0,
+        "rate": 2,
         "status": "Paid",
-        "progress": 28
+        "progress": 28,
+        "url": "https://www.google.com"
     },
     {
         "id": 499,
@@ -12971,7 +13469,8 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-24.jpeg",
         "rate": 1.2,
         "status": "Rejected",
-        "progress": 69
+        "progress": 69,
+        "url": "https://www.microsoft.com"
     },
     {
         "id": 500,
@@ -12997,6 +13496,7 @@
         "image": "https://vue3-datatable-document.vercel.app/assets/images/profile/profile-20.jpeg",
         "rate": 3.8,
         "status": "Paid",
-        "progress": 1
+        "progress": 1,
+        "url": "https://www.google.com"
     }
 ]
