@@ -46,20 +46,15 @@ export default defineEventHandler(async (event) => {
         }
     });
 
-    if (params.search && params.search_fields?.length && rows.length) {
-        let final: Array<any> = [];
-        const keys = params.search_fields;
+    if (params.search && rows.length) {
+        const keys = params.search_fields?.length
+            ? params.search_fields
+            : params.column_filters?.length
+              ? params.column_filters.map((d: any) => d.field).filter(Boolean)
+              : Object.keys(rows[0] || {});
 
-        for (var j = 0; j < rows.length; j++) {
-            for (var i = 0; i < keys.length; i++) {
-                if (cellValue(rows[j], keys[i])?.toString().toLowerCase().includes(params.search.toLowerCase())) {
-                    final.push(rows[j]);
-                    break;
-                }
-            }
-        }
-
-        rows = final;
+        const searchLower = params.search.toLowerCase();
+        rows = rows.filter((row: any) => keys.some((key: string) => cellValue(row, key)?.toString().toLowerCase().includes(searchLower)));
     }
 
     // sort rows
