@@ -8,11 +8,6 @@
             </a>
         </div>
 
-        <!-- <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :sortable="true" :pageSize="20" :hasCheckbox="true" :stickyHeader="true">
-            <template #id="data">
-                <strong>#{{ data.value.id }}</strong>
-            </template>
-        </vue3-datatable> -->
         <vue3-datatable
             :rows="rows"
             :columns="cols"
@@ -25,7 +20,9 @@
             :sortDirection="params.sort_direction"
             :hasCheckbox="true"
             :stickyHeader="true"
-            @change="changeServer"
+            @page-change="changePage"
+            @page-size-change="changePageSize"
+            @sort-change="sortChange"
         >
             <template #id="data">
                 <strong>#{{ data.value.id }}</strong>
@@ -41,15 +38,6 @@
             </a>
         </div>
 
-        <!-- <vue3-datatable :rows="rows1" :columns="cols1" :loading="loading1" :sortable="true" :hasCheckbox="true" :stickyFirstColumn="true">
-            <template #id="data">
-                <strong>#{{ data.value.id }}</strong>
-            </template>
-            <template #email="data">
-                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline">{{ data.value.email }}</a>
-            </template>
-        </vue3-datatable> -->
-
         <vue3-datatable
             :rows="rows1"
             :columns="cols1"
@@ -62,7 +50,9 @@
             :sortDirection="params1.sort_direction"
             :hasCheckbox="true"
             :stickyFirstColumn="true"
-            @change="changeServer1"
+            @page-change="changePage1"
+            @page-size-change="changePageSize1"
+            @sort-change="sortChange1"
         >
             <template #id="data">
                 <strong>#{{ data.value.id }}</strong>
@@ -81,14 +71,6 @@
             </a>
         </div>
 
-        <!-- <vue3-datatable :rows="rows2" :columns="cols2" :loading="loading2" :sortable="true" :pageSize="20" :hasCheckbox="true" :stickyFirstColumn="true" :stickyHeader="true">
-            <template #id="data">
-                <strong>#{{ data.value.id }}</strong>
-            </template>
-            <template #email="data">
-                <a :href="`mailto:${data.value.email}`" class="text-primary hover:underline">{{ data.value.email }}</a>
-            </template>
-        </vue3-datatable> -->
         <vue3-datatable
             :rows="rows2"
             :columns="cols2"
@@ -102,7 +84,9 @@
             :hasCheckbox="true"
             :stickyFirstColumn="true"
             :stickyHeader="true"
-            @change="changeServer2"
+            @page-change="changePage2"
+            @page-size-change="changePageSize2"
+            @sort-change="sortChange2"
         >
             <template #id="data">
                 <strong>#{{ data.value.id }}</strong>
@@ -116,6 +100,7 @@
 <script setup lang="ts">
     import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
+    import type { IColumnDefinition, ISortChangeResponse } from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
 
     onMounted(() => {
@@ -131,20 +116,20 @@
     const loading: any = ref(true);
     const total_rows = ref(0);
 
-    const params = reactive({ current_page: 1, pagesize: 20, sort_column: 'id', sort_direction: 'asc' });
+    const defaultParams = { current_page: 1, pagesize: 20, sort_column: 'id', sort_direction: 'asc' as 'asc' | 'desc' };
+    const params = reactive({ ...defaultParams });
     const rows: any = ref(null);
 
-    const cols =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
-            { field: 'firstName', title: 'First Name' },
-            { field: 'lastName', title: 'Last Name' },
-            { field: 'email', title: 'Email' },
-            { field: 'age', title: 'Age', type: 'number' },
-            { field: 'dob', title: 'Birthdate', type: 'date' },
-            { field: 'address.city', title: 'City' },
-            { field: 'isActive', title: 'Active', type: 'bool' },
-        ]) || [];
+    const cols = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, type: 'number' },
+        { field: 'firstName', title: 'First Name' },
+        { field: 'lastName', title: 'Last Name' },
+        { field: 'email', title: 'Email' },
+        { field: 'age', title: 'Age', type: 'number' },
+        { field: 'dob', title: 'Birthdate', type: 'date' },
+        { field: 'address.city', title: 'City' },
+        { field: 'isActive', title: 'Active', type: 'bool' },
+    ]);
 
     const getUsers = async () => {
         try {
@@ -164,12 +149,18 @@
 
         loading.value = false;
     };
-    const changeServer = (data: any) => {
-        params.current_page = data.current_page;
-        params.pagesize = data.pagesize;
-        params.sort_column = data.sort_column;
-        params.sort_direction = data.sort_direction;
-
+    const changePage = (page: number) => {
+        params.current_page = page;
+        getUsers();
+    };
+    const changePageSize = (size: number) => {
+        params.pagesize = size;
+        params.current_page = 1;
+        getUsers();
+    };
+    const sortChange = (sort: ISortChangeResponse) => {
+        params.sort_column = sort.field;
+        params.sort_direction = sort.direction;
         getUsers();
     };
 
@@ -177,23 +168,23 @@
     const loading1: any = ref(true);
     const total_rows1 = ref(0);
 
-    const params1 = reactive({ current_page: 1, pagesize: 20, sort_column: 'id', sort_direction: 'asc' });
+    const defaultParams1 = { current_page: 1, pagesize: 20, sort_column: 'id', sort_direction: 'asc' as 'asc' | 'desc' };
+    const params1 = reactive({ ...defaultParams1 });
     const rows1: any = ref(null);
 
-    const cols1 =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
-            { field: 'firstName', title: 'First Name' },
-            { field: 'lastName', title: 'Last Name' },
-            { field: 'email', title: 'Email' },
-            { field: 'phone', title: 'Phone' },
-            { field: 'company', title: 'Company' },
-            { field: 'address.street', title: 'Address' },
-            { field: 'address.city', title: 'City' },
-            { field: 'age', title: 'Age', type: 'number' },
-            { field: 'dob', title: 'Birthdate', type: 'date' },
-            { field: 'isActive', title: 'Active', type: 'bool' },
-        ]) || [];
+    const cols1 = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, type: 'number' },
+        { field: 'firstName', title: 'First Name' },
+        { field: 'lastName', title: 'Last Name' },
+        { field: 'email', title: 'Email' },
+        { field: 'phone', title: 'Phone' },
+        { field: 'company', title: 'Company' },
+        { field: 'address.street', title: 'Address' },
+        { field: 'address.city', title: 'City' },
+        { field: 'age', title: 'Age', type: 'number' },
+        { field: 'dob', title: 'Birthdate', type: 'date' },
+        { field: 'isActive', title: 'Active', type: 'bool' },
+    ]);
 
     const getUsers1 = async () => {
         try {
@@ -213,12 +204,18 @@
 
         loading1.value = false;
     };
-    const changeServer1 = (data: any) => {
-        params1.current_page = data.current_page;
-        params1.pagesize = data.pagesize;
-        params1.sort_column = data.sort_column;
-        params1.sort_direction = data.sort_direction;
-
+    const changePage1 = (page: number) => {
+        params1.current_page = page;
+        getUsers1();
+    };
+    const changePageSize1 = (size: number) => {
+        params1.pagesize = size;
+        params1.current_page = 1;
+        getUsers1();
+    };
+    const sortChange1 = (sort: ISortChangeResponse) => {
+        params1.sort_column = sort.field;
+        params1.sort_direction = sort.direction;
         getUsers1();
     };
 
@@ -226,23 +223,23 @@
     const loading2: any = ref(true);
     const total_rows2 = ref(0);
 
-    const params2 = reactive({ current_page: 1, pagesize: 20, sort_column: 'id', sort_direction: 'asc' });
+    const defaultParams2 = { current_page: 1, pagesize: 20, sort_column: 'id', sort_direction: 'asc' as 'asc' | 'desc' };
+    const params2 = reactive({ ...defaultParams2 });
     const rows2: any = ref(null);
 
-    const cols2 =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
-            { field: 'firstName', title: 'First Name' },
-            { field: 'lastName', title: 'Last Name' },
-            { field: 'email', title: 'Email' },
-            { field: 'phone', title: 'Phone' },
-            { field: 'company', title: 'Company' },
-            { field: 'address.street', title: 'Address' },
-            { field: 'address.city', title: 'City' },
-            { field: 'age', title: 'Age', type: 'number' },
-            { field: 'dob', title: 'Birthdate', type: 'date' },
-            { field: 'isActive', title: 'Active', type: 'bool' },
-        ]) || [];
+    const cols2 = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, type: 'number' },
+        { field: 'firstName', title: 'First Name' },
+        { field: 'lastName', title: 'Last Name' },
+        { field: 'email', title: 'Email' },
+        { field: 'phone', title: 'Phone' },
+        { field: 'company', title: 'Company' },
+        { field: 'address.street', title: 'Address' },
+        { field: 'address.city', title: 'City' },
+        { field: 'age', title: 'Age', type: 'number' },
+        { field: 'dob', title: 'Birthdate', type: 'date' },
+        { field: 'isActive', title: 'Active', type: 'bool' },
+    ]);
 
     const getUsers2 = async () => {
         try {
@@ -262,12 +259,18 @@
 
         loading2.value = false;
     };
-    const changeServer2 = (data: any) => {
-        params2.current_page = data.current_page;
-        params2.pagesize = data.pagesize;
-        params2.sort_column = data.sort_column;
-        params2.sort_direction = data.sort_direction;
-
+    const changePage2 = (page: number) => {
+        params2.current_page = page;
+        getUsers2();
+    };
+    const changePageSize2 = (size: number) => {
+        params2.pagesize = size;
+        params2.current_page = 1;
+        getUsers2();
+    };
+    const sortChange2 = (sort: ISortChangeResponse) => {
+        params2.sort_column = sort.field;
+        params2.sort_direction = sort.direction;
         getUsers2();
     };
 </script>

@@ -1,65 +1,68 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    app: {
-        head: {
-            title: 'Vue3-Datatable',
-            htmlAttrs: {
-                lang: 'en',
-            },
-            meta: [
-                { charset: 'utf-8' },
-                {
-                    name: 'viewport',
-                    content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
-                },
-                { hid: 'description', name: 'description', content: '' },
-                { name: 'format-detection', content: 'telephone=no' },
-            ],
-            link: [
-                // { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
-                {
-                    rel: 'stylesheet',
-                    href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap',
-                },
-            ],
-        },
-    },
-    nitro: {
-        routeRules: {
-            '/api/user': {
-                cors: true,
-                headers: {
-                    'Access-Control-Allow-Origin': '*',
-                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-                    'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
-                    'Access-Control-Allow-Credentials': 'true',
-                },
-            },
-            '/api/**': {
-                cors: true,
-                headers: {
-                    'Access-Control-Allow-Origin': '*',
-                    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-                    'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
-                    'Access-Control-Allow-Credentials': 'true',
-                },
-            },
-        },
-    },
-    css: ['@/assets/css/tailwind.css'],
+  app: {
+      head: {
+          title: 'Vue3-Datatable',
+          htmlAttrs: {
+              lang: 'en',
+          },
+          meta: [
+              { charset: 'utf-8' },
+              {
+                  name: 'viewport',
+                  content: 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
+              },
+              { hid: 'description', name: 'description', content: '' },
+              { name: 'format-detection', content: 'telephone=no' },
+          ],
+          link: [
+              // { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
+              {
+                  rel: 'stylesheet',
+                  href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap',
+              },
+          ],
+      },
+  },
 
-    modules: ['@pinia/nuxt'],
+  nitro: {
+      routeRules: {
+          '/api/user': {
+              cors: true,
+              headers: {
+                  'Access-Control-Allow-Origin': '*',
+                  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+                  'Access-Control-Allow-Credentials': 'true',
+              },
+          },
+          '/api/**': {
+              cors: true,
+              headers: {
+                  'Access-Control-Allow-Origin': '*',
+                  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+                  'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
+                  'Access-Control-Allow-Credentials': 'true',
+              },
+          },
+      },
+  },
 
-    runtimeConfig: {
-        public: {
-            SITE_URL: process.env.NUXT_SITE_URL,
-        },
-    },
+  css: ['@/assets/css/tailwind.css'],
+  modules: ['@pinia/nuxt'],
 
-    postcss: {
-        plugins: {
-            tailwindcss: {},
-            autoprefixer: {},
-        },
-    },
+  runtimeConfig: {
+      public: {
+          SITE_URL: process.env.NUXT_SITE_URL,
+      },
+  },
+
+  postcss: {
+      plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+      },
+  },
+
+  compatibilityDate: '2026-04-16',
 });

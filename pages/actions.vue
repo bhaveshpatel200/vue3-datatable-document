@@ -8,25 +8,23 @@
             </a>
         </div>
 
-        <!-- <vue3-datatable :rows="rows" :columns="cols" :loading="loading">
+        <vue3-datatable
+            :rows="rows"
+            :columns="cols"
+            :loading="loading"
+            :totalRows="total_rows"
+            :isServerMode="true"
+            :pageSize="params.pagesize"
+            @page-change="changePage"
+            @page-size-change="changePageSize"
+        >
             <template #id="data">
                 <strong>#{{ data.value.id }}</strong>
             </template>
             <template #actions="data">
                 <div class="flex gap-4">
-                    <button type="button" class="btn btn-success !py-1" @click="viewUser(data.value)">View</button>
-                    <button type="button" class="btn btn-danger !py-1" @click="deleteUser(data.value)">Delete</button>
-                </div>
-            </template>
-        </vue3-datatable> -->
-        <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :totalRows="total_rows" :isServerMode="true" :pageSize="params.pagesize" @change="changeServer">
-            <template #id="data">
-                <strong>#{{ data.value.id }}</strong>
-            </template>
-            <template #actions="data">
-                <div class="flex gap-4">
-                    <button type="button" class="btn btn-success !py-1" @click="viewUser(data.value)">View</button>
-                    <button type="button" class="btn btn-danger !py-1" @click="deleteUser(data.value)">Delete</button>
+                    <button type="button" class="btn btn-success !border hover:border-success !py-1" @click="viewUser(data.value)">View</button>
+                    <button type="button" class="btn btn-danger !border hover:border-danger !py-1" @click="deleteUser(data.value)">Delete</button>
                 </div>
             </template>
         </vue3-datatable>
@@ -35,6 +33,7 @@
 <script setup lang="ts">
     import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
+    import type { IColumnDefinition } from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
 
     onMounted(() => {
@@ -47,18 +46,17 @@
     const params = reactive({ current_page: 1, pagesize: 10 });
     const rows: any = ref(null);
 
-    const cols =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
-            { field: 'firstName', title: 'First Name' },
-            { field: 'lastName', title: 'Last Name' },
-            { field: 'email', title: 'Email' },
-            { field: 'age', title: 'Age', type: 'number' },
-            { field: 'dob', title: 'Birthdate', type: 'date' },
-            { field: 'address.city', title: 'City' },
-            { field: 'isActive', title: 'Active', type: 'bool' },
-            { field: 'actions', title: 'Actions' },
-        ]) || [];
+    const cols = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, type: 'number' },
+        { field: 'firstName', title: 'First Name' },
+        { field: 'lastName', title: 'Last Name' },
+        { field: 'email', title: 'Email' },
+        { field: 'age', title: 'Age', type: 'number' },
+        { field: 'dob', title: 'Birthdate', type: 'date' },
+        { field: 'address.city', title: 'City' },
+        { field: 'isActive', title: 'Active', type: 'bool' },
+        { field: 'actions', title: 'Actions', width: '1px' },
+    ]);
 
     const getUsers = async () => {
         try {
@@ -78,10 +76,13 @@
 
         loading.value = false;
     };
-    const changeServer = (data: any) => {
-        params.current_page = data.current_page;
-        params.pagesize = data.pagesize;
-
+    const changePage = (page: number) => {
+        params.current_page = page;
+        getUsers();
+    };
+    const changePageSize = (size: number) => {
+        params.pagesize = size;
+        params.current_page = 1;
         getUsers();
     };
 

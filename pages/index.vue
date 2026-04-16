@@ -47,6 +47,13 @@
                         <h3 class="text-lg py-2">CSS</h3>
                         <div class="p-3 bg-gray-100 rounded-lg font-semibold">import '@bhplugin/vue3-datatable/dist/style.css'</div>
                     </div>
+                    <div>
+                        <h3 class="text-lg py-2">TypeScript Types (optional)</h3>
+                        <div class="p-3 bg-gray-100 rounded-lg font-semibold">
+                            import type &#123; IColumnDefinition, IColumnType, IFilterCondition, IServerChangeResponse, ISortChangeResponse, IDataTableProps &#125; from
+                            '@bhplugin/vue3-datatable'
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -167,14 +174,14 @@
                             <tr>
                                 <td class="font-semibold">sortColumn</td>
                                 <td align="left">string</td>
-                                <td>"id"</td>
-                                <td>name of sort column</td>
+                                <td>""</td>
+                                <td>initial sort column field name</td>
                             </tr>
                             <tr>
                                 <td class="font-semibold">sortDirection</td>
-                                <td align="left">string</td>
+                                <td align="left">'asc' | 'desc'</td>
                                 <td>"asc"</td>
-                                <td>sort direction (asc or desc)</td>
+                                <td>initial sort direction</td>
                             </tr>
                             <tr>
                                 <td class="font-semibold">columnFilter</td>
@@ -189,7 +196,7 @@
                                 <td>
                                     columns filters translation (<strong>ex</strong>: {no_filter: 'Aucun', contain: 'Contiens', not_contain: 'Ne contiens pas', equal: 'Egale', not_equal: 'Différent',
                                     start_with: 'Commence par', end_with: 'Termine par', greater_than: 'Supérieur à', greater_than_equal: 'Sup. ou égale à', less_than: 'Inférieur à', less_than_equal:
-                                    'Inf. ou égale à', is_null: 'Est null', is_not_null: 'Non null'} )
+                                    'Inf. ou égale à', is_null: 'Est null', is_not_null: 'Non null', all: 'Tous', true: 'Vrai', false: 'Faux'} )
                                 </td>
                             </tr>
                             <tr>
@@ -223,30 +230,6 @@
                                 <td>enable last page in pagination</td>
                             </tr>
                             <tr>
-                                <td class="font-semibold">firstArrow</td>
-                                <td align="left">string</td>
-                                <td>default arrow</td>
-                                <td>custom first page arrow</td>
-                            </tr>
-                            <tr>
-                                <td class="font-semibold">lastArrow</td>
-                                <td align="left">string</td>
-                                <td>default arrow</td>
-                                <td>custom last page arrow</td>
-                            </tr>
-                            <tr>
-                                <td class="font-semibold">previousArrow</td>
-                                <td align="left">string</td>
-                                <td>default arrow</td>
-                                <td>custom previous page arrow</td>
-                            </tr>
-                            <tr>
-                                <td class="font-semibold">nextArrow</td>
-                                <td align="left">string</td>
-                                <td>default arrow</td>
-                                <td>custom next page arrow</td>
-                            </tr>
-                            <tr>
                                 <td class="font-semibold">paginationInfo</td>
                                 <td align="left">string</td>
                                 <td>"Showing {0} to {1} of {2} entries"</td>
@@ -258,6 +241,12 @@
                                 <td>No data available</td>
                                 <td>custom no data message</td>
                             </tr>
+                            <tr>
+                                <td class="font-semibold">skeletonRowCount</td>
+                                <td align="left">number</td>
+                                <td>10</td>
+                                <td>number of skeleton rows rendered while loading</td>
+                            </tr>
 
                             <tr>
                                 <td class="font-semibold">stickyHeader</td>
@@ -268,7 +257,7 @@
                             <tr>
                                 <td class="font-semibold">height</td>
                                 <td align="left">string</td>
-                                <td>450px</td>
+                                <td>500px</td>
                                 <td>only will be used when stickyHeader enabled</td>
                             </tr>
                             <tr>
@@ -287,7 +276,7 @@
                                 <td class="font-semibold">selectRowOnClick</td>
                                 <td align="left">boolean</td>
                                 <td>false</td>
-                                <td>custom no data message</td>
+                                <td>toggle row selection when clicking anywhere on the row (not just the checkbox)</td>
                             </tr>
                         </tbody>
                     </table>
@@ -333,15 +322,18 @@
                             </tr>
                             <tr>
                                 <td class="font-semibold">condition</td>
-                                <td align="left">string</td>
+                                <td align="left">IFilterCondition</td>
                                 <td>"contain"</td>
-                                <td>default condition for column filter if filter enabled</td>
+                                <td>
+                                    default condition for column filter (contain, not_contain, equal, not_equal, start_with, end_with, greater_than, greater_than_equal, less_than, less_than_equal,
+                                    is_null, is_not_null)
+                                </td>
                             </tr>
                             <tr>
                                 <td class="font-semibold">type</td>
-                                <td align="left">string</td>
-                                <td>""</td>
-                                <td>column type (string, date, number, bool)</td>
+                                <td align="left">'string' | 'date' | 'number' | 'bool'</td>
+                                <td>"string"</td>
+                                <td>column data type — determines filter conditions and sort behavior</td>
                             </tr>
                             <tr>
                                 <td class="font-semibold">width</td>
@@ -386,16 +378,16 @@
                                 <td>enable sorting</td>
                             </tr>
                             <tr>
-                                <td class="font-semibold">slotMode</td>
+                                <td class="font-semibold">html</td>
                                 <td align="left">boolean</td>
                                 <td>false</td>
-                                <td>enable slot for cell rendering</td>
+                                <td>whether the column content contains raw HTML</td>
                             </tr>
                             <tr>
                                 <td class="font-semibold">cellRenderer</td>
-                                <td align="left">function, string</td>
-                                <td>true</td>
-                                <td>custom cell rendering</td>
+                                <td align="left">(row) =&gt; string | string</td>
+                                <td>—</td>
+                                <td>custom cell renderer — function returning an HTML string (rendered via v-html), or a static HTML string. For complex rendering, prefer named slots.</td>
                             </tr>
 
                             <tr>
@@ -423,42 +415,61 @@
                     <thead>
                         <tr>
                             <th>Name</th>
+                            <th align="left">Payload</th>
                             <th>Description</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
+                            <td class="font-semibold">changeServer</td>
+                            <td align="left">IServerChangeResponse</td>
+                            <td>fires only in server mode — aggregate event with full state (page, pagesize, sort, search, column filters, change_type)</td>
+                        </tr>
+                        <tr>
                             <td class="font-semibold">sortChange</td>
+                            <td align="left">ISortChangeResponse</td>
                             <td>will trigger when sorting changed</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">searchChange</td>
+                            <td align="left">string</td>
                             <td>will trigger when search changed</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">pageChange</td>
-                            <td>will trigger when page changed</td>
+                            <td align="left">number</td>
+                            <td>fires only when user clicks pagination buttons. Silent on programmatic resets (filter/search/pagesize change).</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">pageSizeChange</td>
+                            <td align="left">number</td>
                             <td>will trigger when pagesize changed</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">rowSelect</td>
-                            <td>will trigger when row selected using checkbox</td>
+                            <td align="left">Array&lt;Record&lt;string, unknown&gt;&gt;</td>
+                            <td>will trigger when row selected using checkbox (only from user interactions)</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">filterChange</td>
+                            <td align="left">IColumnDefinition[]</td>
                             <td>will trigger when column filter changed</td>
                         </tr>
 
                         <tr>
                             <td class="font-semibold">rowClick</td>
+                            <td align="left">Record&lt;string, unknown&gt;</td>
                             <td>will trigger when row clicked</td>
                         </tr>
                         <tr>
                             <td class="font-semibold">rowDBClick</td>
+                            <td align="left">Record&lt;string, unknown&gt;</td>
                             <td>will trigger when row double clicked</td>
+                        </tr>
+                        <tr>
+                            <td class="font-semibold">reset</td>
+                            <td align="left">—</td>
+                            <td>fires when reset() method is called. Only event emitted during reset — all other events (searchChange, pageSizeChange, etc.) are suppressed.</td>
                         </tr>
                     </tbody>
                 </table>
@@ -519,6 +530,7 @@
 
         <div id="slots">
             <h2 class="text-3xl py-3 border-b border-gray-300 mb-4">Slots</h2>
+            <h3 class="text-lg py-2">Custom cell rendering (named by column field)</h3>
             <Highlight>
                 <pre>
 &lt;template #id=&quot;data&quot;&gt;
@@ -531,6 +543,27 @@
 
 &lt;template #email=&quot;data&quot;&gt;
   &lt;strong&gt;&#123;&#123; data.value.email &#125;&#125;&lt;/strong&gt;
+&lt;/template&gt;
+</pre
+                >
+            </Highlight>
+
+            <h3 class="text-lg py-2 mt-4">Custom pagination arrows</h3>
+            <Highlight>
+                <pre>
+&lt;template #firstArrow&gt;First&lt;/template&gt;
+&lt;template #previousArrow&gt;Prev&lt;/template&gt;
+&lt;template #nextArrow&gt;Next&lt;/template&gt;
+&lt;template #lastArrow&gt;Last&lt;/template&gt;
+</pre
+                >
+            </Highlight>
+
+            <h3 class="text-lg py-2 mt-4">Custom empty state</h3>
+            <Highlight>
+                <pre>
+&lt;template #noData&gt;
+  &lt;div class=&quot;p-4 text-gray-500&quot;&gt;No records found&lt;/div&gt;
 &lt;/template&gt;
 </pre
                 >

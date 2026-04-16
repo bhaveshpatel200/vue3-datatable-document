@@ -36,7 +36,6 @@
             </ul>
         </div>
 
-        <!-- <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :sortable="true"> </vue3-datatable> -->
         <vue3-datatable
             :rows="rows"
             :columns="cols"
@@ -47,7 +46,9 @@
             :sortable="true"
             :sortColumn="params.sort_column"
             :sortDirection="params.sort_direction"
-            @change="changeServer"
+            @page-change="changePage"
+            @page-size-change="changePageSize"
+            @sort-change="sortChange"
         >
         </vue3-datatable>
     </div>
@@ -55,6 +56,7 @@
 <script setup lang="ts">
     import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
+    import type { IColumnDefinition, ISortChangeResponse } from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const isOpen = ref(false);
 
@@ -65,22 +67,22 @@
     const loading: any = ref(true);
     const total_rows = ref(0);
 
-    const params = reactive({ current_page: 1, pagesize: 10, sort_column: 'id', sort_direction: 'asc' });
+    const defaultParams = { current_page: 1, pagesize: 10, sort_column: 'id', sort_direction: 'asc' as 'asc' | 'desc' };
+    const params = reactive({ ...defaultParams });
     const rows: any = ref(null);
 
-    const cols =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, hide: false },
-            { field: 'firstName', title: 'First Name', hide: false },
-            { field: 'lastName', title: 'Last Name', hide: false },
-            { field: 'email', title: 'Email', hide: false },
-            { field: 'phone', title: 'Phone', hide: false },
-            { field: 'company', title: 'Company', hide: false },
-            { field: 'address.street', title: 'Address', hide: false },
-            { field: 'age', title: 'Age', type: 'number', hide: true },
-            { field: 'dob', title: 'Birthdate', type: 'date', hide: true },
-            { field: 'isActive', title: 'Active', type: 'bool', hide: true },
-        ]) || [];
+    const cols = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, hide: false },
+        { field: 'firstName', title: 'First Name', hide: false },
+        { field: 'lastName', title: 'Last Name', hide: false },
+        { field: 'email', title: 'Email', hide: false },
+        { field: 'phone', title: 'Phone', hide: false },
+        { field: 'company', title: 'Company', hide: false },
+        { field: 'address.street', title: 'Address', hide: false },
+        { field: 'age', title: 'Age', type: 'number', hide: true },
+        { field: 'dob', title: 'Birthdate', type: 'date', hide: true },
+        { field: 'isActive', title: 'Active', type: 'bool', hide: true },
+    ]);
 
     const getUsers = async () => {
         try {
@@ -100,12 +102,18 @@
 
         loading.value = false;
     };
-    const changeServer = (data: any) => {
-        params.current_page = data.current_page;
-        params.pagesize = data.pagesize;
-        params.sort_column = data.sort_column;
-        params.sort_direction = data.sort_direction;
-
+    const changePage = (page: number) => {
+        params.current_page = page;
+        getUsers();
+    };
+    const changePageSize = (size: number) => {
+        params.pagesize = size;
+        params.current_page = 1;
+        getUsers();
+    };
+    const sortChange = (sort: ISortChangeResponse) => {
+        params.sort_column = sort.field;
+        params.sort_direction = sort.direction;
         getUsers();
     };
 </script>

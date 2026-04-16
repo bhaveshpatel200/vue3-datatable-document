@@ -8,7 +8,6 @@
             </a>
         </div>
 
-        <!-- <vue3-datatable :rows="rows" :columns="cols" :loading="loading" :columnFilter="true" class="column-filter"></vue3-datatable> -->
         <vue3-datatable
             :rows="rows"
             :columns="cols"
@@ -18,7 +17,9 @@
             :pageSize="params.pagesize"
             :columnFilter="true"
             class="column-filter"
-            @change="changeServer"
+            @page-change="changePage"
+            @page-size-change="changePageSize"
+            @filter-change="filterChange"
         >
         </vue3-datatable>
     </div>
@@ -26,57 +27,38 @@
 <script setup lang="ts">
     import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
+    import type { IColumnDefinition } from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const loading: any = ref(true);
     const total_rows = ref(0);
 
-    const params = reactive({
-        current_page: 1,
-        pagesize: 10,
-        column_filters: [],
-    });
+    const defaultParams = { current_page: 1, pagesize: 10, column_filters: [] as any[] };
+    const params = reactive({ ...defaultParams });
     const rows: any = ref(null);
 
-    const cols =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
-            { field: 'firstName', title: 'First Name' },
-            { field: 'lastName', title: 'Last Name' },
-            { field: 'email', title: 'Email' },
-            { field: 'age', title: 'Age', type: 'number' },
-            { field: 'dob', title: 'Birthdate', type: 'date' },
-            { field: 'address.city', title: 'City' },
-            { field: 'isActive', title: 'Active', type: 'bool' },
-        ]) || [];
+    const cols = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, type: 'number' },
+        { field: 'firstName', title: 'First Name' },
+        { field: 'lastName', title: 'Last Name' },
+        { field: 'email', title: 'Email' },
+        { field: 'age', title: 'Age', type: 'number' },
+        { field: 'dob', title: 'Birthdate', type: 'date' },
+        { field: 'address.city', title: 'City' },
+        { field: 'isActive', title: 'Active', type: 'bool' },
+    ]);
 
     onMounted(() => {
         getUsers();
     });
 
-    let controller: any;
-    let timer: any;
-    const filterUsers = () => {
-        clearTimeout(timer);
-        timer = setTimeout(() => {
-            getUsers();
-        }, 300);
-    };
     const getUsers = async () => {
         try {
-            // cancel request if previous request still pending before next request fire
-            if (controller) {
-                controller.abort();
-            }
-            controller = new AbortController();
-            const signal = controller.signal;
-
             loading.value = true;
 
             const response = await fetch('/api/user', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(toRaw(params)),
-                signal: signal, // Assign the signal to the fetch request
             });
 
             const data = await response.json();
@@ -87,16 +69,19 @@
 
         loading.value = false;
     };
-    const changeServer = (data: any) => {
-        params.current_page = data.current_page;
-        params.pagesize = data.pagesize;
-        params.column_filters = data.column_filters;
-
-        if (data.change_type === 'filter') {
-            filterUsers();
-        } else {
-            getUsers();
-        }
+    const changePage = (page: number) => {
+        params.current_page = page;
+        getUsers();
+    };
+    const changePageSize = (size: number) => {
+        params.pagesize = size;
+        params.current_page = 1;
+        getUsers();
+    };
+    const filterChange = (columns: IColumnDefinition[]) => {
+        params.column_filters = columns;
+        params.current_page = 1;
+        getUsers();
     };
 </script>
 <style>

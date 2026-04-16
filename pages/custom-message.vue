@@ -12,15 +12,6 @@
             <input v-model="params.search" type="text" class="form-input max-w-xs" placeholder="Search..." />
         </div>
 
-        <!-- <vue3-datatable
-            :rows="rows"
-            :columns="cols"
-            :loading="loading"
-            :search="search"
-            noDataContent="No records found in the database."
-            paginationInfo="Отображение от {0} до {1} записей из {2} записей"
-        >
-        </vue3-datatable> -->
         <vue3-datatable
             :rows="rows"
             :columns="cols"
@@ -31,7 +22,9 @@
             :search="params.search"
             noDataContent="No records found in the database."
             paginationInfo="Отображение от {0} до {1} записей из {2} записей"
-            @change="changeServer"
+            @page-change="changePage"
+            @page-size-change="changePageSize"
+            @search-change="searchChange"
         >
         </vue3-datatable>
     </div>
@@ -39,29 +32,25 @@
 <script setup lang="ts">
     import { ref, toRaw } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
+    import type { IColumnDefinition } from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     const loading: any = ref(true);
     const total_rows = ref(0);
 
-    const params = reactive({
-        current_page: 1,
-        pagesize: 10,
-        search: '',
-        column_filters: [],
-    });
+    const defaultParams = { current_page: 1, pagesize: 10, search: '', column_filters: [] as any[] };
+    const params = reactive({ ...defaultParams });
     const rows: any = ref(null);
 
-    const cols =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
-            { field: 'firstName', title: 'First Name' },
-            { field: 'lastName', title: 'Last Name' },
-            { field: 'email', title: 'Email' },
-            { field: 'age', title: 'Age', type: 'number' },
-            { field: 'dob', title: 'Birthdate', type: 'date' },
-            { field: 'address.city', title: 'City' },
-            { field: 'isActive', title: 'Active', type: 'bool' },
-        ]) || [];
+    const cols = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, type: 'number' },
+        { field: 'firstName', title: 'First Name' },
+        { field: 'lastName', title: 'Last Name' },
+        { field: 'email', title: 'Email' },
+        { field: 'age', title: 'Age', type: 'number' },
+        { field: 'dob', title: 'Birthdate', type: 'date' },
+        { field: 'address.city', title: 'City' },
+        { field: 'isActive', title: 'Active', type: 'bool' },
+    ]);
 
     onMounted(() => {
         getUsers();
@@ -101,16 +90,18 @@
 
         loading.value = false;
     };
-    const changeServer = (data: any) => {
-        params.current_page = data.current_page;
-        params.pagesize = data.pagesize;
-        params.column_filters = data.column_filters;
-        params.search = data.search;
-
-        if (data.change_type === 'search') {
-            filterUsers();
-        } else {
-            getUsers();
-        }
+    const changePage = (page: number) => {
+        params.current_page = page;
+        getUsers();
+    };
+    const changePageSize = (size: number) => {
+        params.pagesize = size;
+        params.current_page = 1;
+        getUsers();
+    };
+    const searchChange = (val: string) => {
+        params.search = val;
+        params.current_page = 1;
+        filterUsers();
     };
 </script>

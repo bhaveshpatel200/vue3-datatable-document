@@ -19,7 +19,9 @@
             :sortColumn="params.sort_column"
             :sortDirection="params.sort_direction"
             class="advanced-table whitespace-nowrap"
-            @change="changeServer"
+            @page-change="pageChange"
+            @page-size-change="pageSizeChange"
+            @sort-change="sortChange"
         >
             <template #id="data">
                 <strong class="text-info">#{{ data.value.id }}</strong>
@@ -53,7 +55,7 @@
             <template #rating="data">
                 <client-only>
                     <div class="flex items-center justify-center text-warning">
-                        <div v-for="i in getRandomNumber(1, 5)" :key="i + data.value.id">
+                        <div v-for="i in getRandomNumber(1, 5)" :key="`${i}-${data.value.id}`">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -91,6 +93,7 @@
 <script setup lang="ts">
     import { ref, toRaw, computed } from 'vue';
     import Vue3Datatable from '@bhplugin/vue3-datatable';
+    import type { IColumnDefinition, ISortChangeResponse } from '@bhplugin/vue3-datatable';
     import '@bhplugin/vue3-datatable/dist/style.css';
     // import ApexChart from 'vue3-apexcharts';
     let ApexChart: any = null;
@@ -103,25 +106,26 @@
 
     const loading: any = ref(true);
     const total_rows = ref(0);
-    const params = reactive({
+    const defaultParams = {
         current_page: 1,
         pagesize: 10,
         sort_column: 'id',
-        sort_direction: 'asc',
-    });
+        sort_direction: 'asc' as 'asc' | 'desc',
+    };
+
+    const params = reactive({ ...defaultParams });
     const rows: any = ref(null);
-    const cols =
-        ref([
-            { field: 'id', title: 'ID', isUnique: true, type: 'number' },
-            { field: 'firstName', title: 'User' },
-            { field: 'country', title: 'Country', sort: false },
-            { field: 'email', title: 'Email' },
-            { field: 'age', title: 'Progress', sort: false },
-            { field: 'phone', title: 'Phone' },
-            { field: 'rating', title: 'Rate', sort: false, minWidth: '120px', headerClass: 'justify-center', cellClass: 'justify-center' },
-            { field: 'series', title: 'Progress', sort: false },
-            { field: 'status', title: 'Status', sort: false },
-        ]) || [];
+    const cols = ref<IColumnDefinition[]>([
+        { field: 'id', title: 'ID', isUnique: true, type: 'number' },
+        { field: 'firstName', title: 'User' },
+        { field: 'country', title: 'Country', sort: false },
+        { field: 'email', title: 'Email' },
+        { field: 'age', title: 'Progress', sort: false },
+        { field: 'phone', title: 'Phone' },
+        { field: 'rating', title: 'Rate', sort: false, minWidth: '120px', headerClass: 'justify-center', cellClass: 'justify-center' },
+        { field: 'series', title: 'Progress', sort: false },
+        { field: 'status', title: 'Status', sort: false },
+    ]);
 
     onMounted(() => {
         getUsers();
@@ -146,12 +150,18 @@
         loading.value = false;
     };
 
-    const changeServer = (data: any) => {
-        params.current_page = data.current_page;
-        params.pagesize = data.pagesize;
-        params.sort_column = data.sort_column;
-        params.sort_direction = data.sort_direction;
-
+    const pageChange = (page: number) => {
+        params.current_page = page;
+        getUsers();
+    };
+    const pageSizeChange = (size: number) => {
+        params.pagesize = size;
+        params.current_page = 1;
+        getUsers();
+    };
+    const sortChange = (sort: ISortChangeResponse) => {
+        params.sort_column = sort.field;
+        params.sort_direction = sort.direction;
         getUsers();
     };
 
